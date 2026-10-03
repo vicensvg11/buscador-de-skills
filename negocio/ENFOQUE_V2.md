@@ -57,3 +57,5 @@
 
 - Presentación explicativa del modelo (para el titular): https://claude.ai/artifact/AR9XjtKhaLXuDTVEnaa6uJ
 - Corrección: el MVP no emite facturas (ver DECISIONES.md, por Verifactu).
+- Calendario publicado: https://claude.ai/artifact/LuYbP213m8NhTpboUEfxA2
+- Presentación de potencial (36 meses, 4 escenarios, sensibilidad, valoración): https://claude.ai/artifact/CJCQhjscoBf6H3iHZvnEZn · modelo: `herramientas/modelo_potencial.py`
