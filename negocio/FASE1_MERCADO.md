@@ -110,3 +110,20 @@ Fuentes clave (extractos de buscador): https://aichef.pro/kit-escandallos · htt
 Con el coste fijo del escenario A (**1.560 €/año**), **ninguna de las tres ideas tiene un escenario base que alcance el break-even**. Las tres caen en la misma trampa: sin canal propio ni ventaja personal, el producto que cabe en 2 h/semana es justo el que el mercado ya regala o vende a 5–14 €. El límite no es el producto, es la **distribución** (principio 2). La puntuación de la 1.4 sobrestimaba "Disposición a pagar" y "Anti-IA" porque se hizo antes de conocer los precios de los competidores (principio 6).
 
 Puntuación corregida tras la 1.5: I05 2,9 · I01/I02 2,8 · I16 2,7 (todas por debajo del umbral razonable de 3,5).
+
+---
+
+## Ronda 2 (obligaciones legales nuevas) · 2026-10-03
+
+| Idea | Veredicto | Motivo principal |
+|---|---|---|
+| **Kit del art. 4 del AI Act (alfabetización en IA) para micropymes** | **2/5 → elegida** | Obligación vigente desde feb-2025 y supervisión de la AESIA desde ago-2026. Sin competidor por empresa por debajo de 100 € (CumpleConIA a 199 €; CursoAIAct a 50 €/persona). Ticket alto: break-even con 2,1 ventas/mes. En contra: el Ómnibus (27-jul-2026) suaviza la obligación, no hay multa nacional aprobada, el SEO está saturado y no hay ninguna cita real |
+| Kit de cumplimiento laboral (protocolo de acoso, desconexión, registro de jornada) | 1,5/5 | kloc.es gratis, cumpleo.com a 20 €/año, modelos gratuitos del Ministerio; ninguna ventaja frente a la IA; medidas LGTBI solo con más de 50 empleados; el RD de registro horario digital sigue sin publicarse |
+
+Fuentes clave (extractos de buscador): https://www.whitecase.com/insight-alert/eu-ai-omnibus-enters-force-amending-ai-act · https://lexlon.es/blog/el-retraso-del-reglamento-de-ia-que-ha-cambiado-realmente-y-que-sigue-igual-para · https://angelortegacastro.com/aesia-puede-multar-ai-act-hoy/ · https://www.cuatrecasas.com/es/spain/propiedad-intelectual/art/anteproyecto-ley-buen-uso-gobernanza-ia · https://cumpleconia.es/ · https://cursoaiact.com/ · https://paratodosia.com/alfabetizacion-ia · https://www.ine.es/dyngs/Prensa/ETICCE20241T2025.htm · https://kloc.es/protocolo-acoso-laboral-gratis · https://cumpleo.com/servicios/protocolos-de-acoso-sexual/
+
+## 1.6 Decisión
+- **Principal:** Kit IA en Regla (art. 4 del AI Act), a 69 € + IVA por empresa (hasta 10 empleados), con licencia para gestorías a 199 € + IVA/año.
+- **Alternativo:** kit de hostelería, donde hay pago demostrado (aichef.pro dice tener más de 1.500 hosteleros a 12 €).
+- **Cambio al alternativo:** si en 30 días de validación hay menos de 3 preventas y 0 gestorías interesadas.
+- Presentación de socio: https://claude.ai/artifact/4FcxfGWzb3ofnGXk4QgS7m

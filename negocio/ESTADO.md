@@ -2,7 +2,7 @@
 
 Actualizado: 2026-10-03 (sesión 1)
 
-**Fase:** 1 · Mercado y selección → 1.5 hecha con extractos de buscador; **GATE 1 presentado como NO-GO** (`GATE1.md`), a la espera de la decisión del titular (A/B/C)
+**Fase:** 1 · Completada → **GATE 1: presentación de socio enviada** (https://claude.ai/artifact/4FcxfGWzb3ofnGXk4QgS7m). Negocio propuesto: Kit IA en Regla. A la espera de la aprobación del titular
 **Objetivo de la semana:** pasar el GATE 1 (elegir negocio principal y alternativo con evidencia)
 
 ## KPIs actuales
@@ -19,6 +19,6 @@ Sin negocio todavía. Caja: 1.500 € · gastado 0 € · comprometido 0 €/mes
 Respuestas de la Fase 0 (2026-10-03): Cataluña (sin cuota cero → escenario A, 130 €/mes de coste fijo), asalariado sin haber sido autónomo en los últimos 2 años (pluriactividad, con tarifa plana de 80 €), objetivo de 1.000 €/mes en el mes 6 = escenario optimista.
 
 ## Próximas 3 acciones
-1. En curso: ronda 2 de ideas (alfabetización en IA del art. 4 del AI Act; kit de cumplimiento laboral para micropymes), con 2 subagentes.
-2. Si es A: repetir la 1.2–1.5 con ideas ancladas a la ventaja del titular, con fuentes abiertas.
-3. Si es B: alta censal + landing de preventa en GitHub Pages + Lemon Squeezy, con tope de 112 €.
+1. Recibir la aprobación del titular sobre la validación de 30 días a 0 € (y sus 3 decisiones: dominio, revisión jurídica, tareas).
+2. Si se aprueba: landing + diagnóstico + preventa en el repo (GitHub Pages), EXPERIMENTOS.md con la hipótesis y el umbral.
+3. 10 artículos SEO por sector y kit de contacto con gestorías (cumpliendo la LSSI).
