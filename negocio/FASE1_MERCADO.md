@@ -88,3 +88,25 @@ Justificación de las puntuaciones clave:
 3. **I16 Alertas de subvenciones BDNS** (si el "otro sector" del titular encaja, sube) o **I09** (sube si el titular o alguien de su entorno es docente).
 
 **Pendiente para completar la 1.5** (10 citas reales de clientes con URL, precios de 5 competidores, reseñas de 1–3 estrellas): hace falta poder abrir páginas (T-001). Sin eso incumpliría el principio 1 y no presento el GATE 1.
+
+---
+
+## 1.5 Análisis profundo del top 3 (3 subagentes en paralelo, 2026-10-03)
+
+Evidencia: solo extractos de buscador (unas 17 búsquedas por idea); ninguna página abierta.
+
+| | I05 Kit hostelería | I01→I02 Autónomos | I16 Alertas de subvenciones |
+|---|---|---|---|
+| **Veredicto** | **2/5** | **2/5** | **2/5** |
+| Precio de mercado | aichef.pro: kit de 13 plantillas a **12 €** (antes 49 €). chefbusiness.co: pack APPCC con 14 alérgenos a **14 €**. ingenieriademenu.com: 17 $. Muchas plantillas gratis (RIMA, CashTrainers, El Colador Chino) | Plantillas **gratis** con resumen por casillas del 303/130 (Declarando, Billeo, Aiscan, justexw). Billin desde 6,60 €/mes. Quipu: modelos fiscales a 36 €/mes | **Gratis**: alertas del SNPSAP (Hacienda), Subvenciones al Día (resúmenes con IA), Cámaras. De pago: Busca Ayudas **5 €/mes** (por CCAA y sector), Infoayudas 50–150 €/año, Fandit 160 €/mes |
+| Citas reales de clientes | 0/10 | 0/10 | 1/10 (web de una consultora, dudosa) |
+| Ingreso estimado año 1 | 125–1.250 € por SEO (+ Etsy similar) [SUPUESTO · baja] | 0,5–2,5 k€ netos [SUPUESTO · media] | 100–350 € de MRR al mes 12 [SUPUESTO · baja] |
+| Hallazgo aprovechable | aichef.pro afirma tener "+1.500 hosteleros": se paga, pero a 12 € | No se ha encontrado ningún complemento de Sheets que importe la **Norma 43** (import43.com es un conversor). Verifactu: una hoja que solo *registra* facturas emitidas en otro sistema quedaría fuera [SUPUESTO · media] | La API de la BDNS es viable (JSON, sin clave, filtros por región; campo `sectoresCnae` con datos sucios) |
+| Mayor incertidumbre | Si un kit integrado convierte ≥2 % a 29 € frente a ofertas de 12 € | Si alguien paga por lo que ya existe gratis | Si existe un nicho de sector × CCAA en el que la curación humana justifique ≥9 €/mes |
+
+Fuentes clave (extractos de buscador): https://aichef.pro/kit-escandallos · https://chefbusiness.co/productos-digitales/pack-appcc/ · https://g-stock.es/gstock-para-restaurantes/ · https://declarando.es/como-hacer-excel-gastos-ingresos · https://www.billeo.es/blog/plantilla-de-libro-de-ingresos-y-gastos-para-autonomos-excel-local · https://verifactufacil.com/software/quipu · https://sede.agenciatributaria.gob.es/Sede/iva/sistemas-informaticos-facturacion-verifactu/preguntas-frecuentes/cuestiones-generales-ambitos-aplicacion.html · https://deepstrike.io/blog/google-casa-security-assessment-2025 · https://buscaayudas.es/alertas/ · https://www.infoayudas.com/tarifas/ · https://fandit.es/precios · https://subvencionesaldia.com/ · https://www.pap.hacienda.gob.es/bdnstrans/GE/es/suscripciones · https://www.servimedia.es/noticias/burocracia-empuja-casi-80-autonomos-contratar-una-gestoria/1410135049
+
+### Conclusión de la 1.5 (abogado del diablo incluido)
+Con el coste fijo del escenario A (**1.560 €/año**), **ninguna de las tres ideas tiene un escenario base que alcance el break-even**. Las tres caen en la misma trampa: sin canal propio ni ventaja personal, el producto que cabe en 2 h/semana es justo el que el mercado ya regala o vende a 5–14 €. El límite no es el producto, es la **distribución** (principio 2). La puntuación de la 1.4 sobrestimaba "Disposición a pagar" y "Anti-IA" porque se hizo antes de conocer los precios de los competidores (principio 6).
+
+Puntuación corregida tras la 1.5: I05 2,9 · I01/I02 2,8 · I16 2,7 (todas por debajo del umbral razonable de 3,5).
