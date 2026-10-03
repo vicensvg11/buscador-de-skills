@@ -12,11 +12,11 @@
 - Guía: https://code.claude.com/docs/en/cloud-environments#network-access
 - **Si no se concede:** la Fase 1 se hará solo con extractos de buscador y todas las cifras irán marcadas como `[SUPUESTO]`. Aumenta el riesgo de elegir mal.
 
-### T-002 · Responder a las preguntas de la Fase 0 · 3 min
-(Están en el chat de la sesión 1: activos y perfil, comunidad autónoma, situación laboral, objetivo del mes 6.)
+### T-002 · Detallar el "otro sector o habilidad" · 2 min
+Una o dos líneas: profesión o experiencia, aficiones con audiencia, contactos de algún sector, dominios o cuentas en redes, idiomas adicionales (¿catalán?). Si de verdad no hay nada aprovechable, basta con decirlo.
 
 ### T-003 · (Opcional, solo si el negocio elegido es una tienda) Re-autenticar el conector de Shopify · 2 min
 claude.ai → Ajustes → Conectores → Shopify → Reconectar. No hace falta ahora.
 
 ## Cerradas
-(ninguna)
+- T-000 · Preguntas de la Fase 0 (CCAA, situación laboral, objetivo) · respondidas el 2026-10-03
