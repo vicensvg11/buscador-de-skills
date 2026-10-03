@@ -2,7 +2,7 @@
 
 Actualizado: 2026-10-03 (sesión 1)
 
-**Fase:** 1 · Completada → **GATE 1: presentación de socio enviada** (https://claude.ai/artifact/4FcxfGWzb3ofnGXk4QgS7m). Negocio propuesto: Kit IA en Regla. A la espera de la aprobación del titular
+**Fase:** 1 · Reabierta con el **enfoque v2 (escalable y recurrente)**, a petición del titular. Ver `ENFOQUE_V2.md`. El Kit IA en Regla queda en pausa
 **Objetivo de la semana:** pasar el GATE 1 (elegir negocio principal y alternativo con evidencia)
 
 ## KPIs actuales
@@ -19,6 +19,6 @@ Sin negocio todavía. Caja: 1.500 € · gastado 0 € · comprometido 0 €/mes
 Respuestas de la Fase 0 (2026-10-03): Cataluña (sin cuota cero → escenario A, 130 €/mes de coste fijo), asalariado sin haber sido autónomo en los últimos 2 años (pluriactividad, con tarifa plana de 80 €), objetivo de 1.000 €/mes en el mes 6 = escenario optimista.
 
 ## Próximas 3 acciones
-1. Recibir la aprobación del titular sobre la validación de 30 días a 0 € (y sus 3 decisiones: dominio, revisión jurídica, tareas).
-2. Si se aprueba: landing + diagnóstico + preventa en el repo (GitHub Pages), EXPERIMENTOS.md con la hipótesis y el umbral.
-3. 10 artículos SEO por sector y kit de contacto con gestorías (cumpliendo la LSSI).
+1. Ronda v2: 3 subagentes (nichos de localización en Shopify, suite de cumplimiento UE, modelos alternativos).
+2. Scoring v2, abogado del diablo y elección.
+3. Nueva presentación de socio (regla del titular) antes de estructurar nada.
