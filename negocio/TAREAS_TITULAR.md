@@ -1,0 +1,22 @@
+# TAREAS DEL TITULAR
+
+## Abiertas
+
+### T-001 · Ampliar el acceso de red del entorno de Claude Code · fecha límite: antes de la próxima sesión · 3 min
+- **Para qué:** abrir y leer foros, reseñas, marketplaces y fuentes oficiales (BOE, Seguridad Social) para cumplir el principio de evidencia en la Fase 1.
+- **Coste:** gratis.
+- **Pasos:**
+  1. En la sesión de Claude Code, abre el menú del entorno (barra de título) → *Edit*.
+  2. En *Network access*, elige **Full** (opción recomendada) o *Custom* manteniendo la lista por defecto y añadiendo: `reddit.com`, `www.reddit.com`, `old.reddit.com`, `news.ycombinator.com`, `www.indiehackers.com`, `www.producthunt.com`, `www.g2.com`, `www.capterra.com`, `www.capterra.es`, `es.trustpilot.com`, `gumroad.com`, `www.etsy.com`, `www.boe.es`, `www.seg-social.es`, `sede.agenciatributaria.gob.es`, `www.infoautonomos.com`, `trends.google.com`, `www.lemonsqueezy.com`.
+  3. Guarda y abre una sesión nueva (o sigue en esta).
+- Guía: https://code.claude.com/docs/en/cloud-environments#network-access
+- **Si no se concede:** la Fase 1 se hará solo con extractos de buscador y todas las cifras irán marcadas como `[SUPUESTO]`. Aumenta el riesgo de elegir mal.
+
+### T-002 · Responder a las preguntas de la Fase 0 · 3 min
+(Están en el chat de la sesión 1: activos y perfil, comunidad autónoma, situación laboral, objetivo del mes 6.)
+
+### T-003 · (Opcional, solo si el negocio elegido es una tienda) Re-autenticar el conector de Shopify · 2 min
+claude.ai → Ajustes → Conectores → Shopify → Reconectar. No hace falta ahora.
+
+## Cerradas
+(ninguna)
