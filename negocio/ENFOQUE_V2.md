@@ -40,3 +40,17 @@
 1. Nichos de localización España/sur de Europa en Shopify (recargo de equivalencia, transportistas, Bizum, contabilidad, IRPF).
 2. Suite de cumplimiento UE localizada: competidores, huecos, próximas obligaciones de 2027 y cómo ganar ranking.
 3. Otros modelos escalables (WooCommerce, PrestaShop, API, SEO programático, temas).
+
+## Resultado de la ronda v2 (hecha sin subagentes: se cortaron por el límite de uso)
+| Nicho | Resultado | Evidencia (extractos de buscador) |
+|---|---|---|
+| **Recargo de equivalencia en Shopify** | **ELEGIDO como cuña** | Shopify no lo soporta de forma nativa (hilos de la comunidad de 2021 a 2026). En las búsquedas no aparece ninguna app dedicada. Sufio solo lo desglosa en la factura (7–129 $/mes, 4,9★ con 546 reseñas). En WooCommerce se paga: WC Tax Spain desde 79 €/año, otro plugin a 164 €. B2B en todos los planes de Shopify desde abr-2026. Viabilidad técnica según extractos: Cart Transform lineExpand (apps públicas, todos los planes) y orderEditAddCustomItem |
+| Transportistas españoles | Descartado | Packlink PRO, Sendcloud, ShippyPro, módulo oficial de Correos |
+| Verifactu, GPSR, desistimiento, green claims, garantía | Fase 3 (no como entrada) | Saturados; ya hay suites (Dotcase, ShopCompliance, EU Shield) |
+
+## Decisión
+- **Negocio:** Recargo+ (nombre provisional). App de Shopify para el recargo de equivalencia, a 19, 39 y 79 $/mes. Fase 2: fiscalidad española completa. Fase 3: suite de cumplimiento UE en ES, IT y PT.
+- **Proyección:** `herramientas/proyeccion_v2.py`. Mes 12, escenario base: 42 clientes, ingreso recurrente de 1.192 €/mes, unos 750 € netos/mes. Optimista: 3.874 €/mes de ingreso recurrente.
+- **Pérdida máxima:** unos 18 € (alta de 19 $ en la App Store, **pendiente de consentimiento**).
+- **Criterio de pivote:** menos de 5 instalaciones y 0 de pago a los 60 días del lanzamiento → pasar a la fase 3.
+- **Business plan:** https://claude.ai/artifact/Le4TBMDkk4y9R9tnsk5LWs

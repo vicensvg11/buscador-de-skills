@@ -18,5 +18,8 @@ Una o dos líneas: profesión o experiencia, aficiones con audiencia, contactos 
 ### T-003 · (Opcional, solo si el negocio elegido es una tienda) Re-autenticar el conector de Shopify · 2 min
 claude.ai → Ajustes → Conectores → Shopify → Reconectar. No hace falta ahora.
 
+### T-004 · (Si apruebas Recargo+) Crear la cuenta de Shopify Partners · gratis · 10 min
+partners.shopify.com → Join now → datos personales. No se paga nada hasta el alta en la App Store (19 $, semana 4, con tu consentimiento).
+
 ## Cerradas
 - T-000 · Preguntas de la Fase 0 (CCAA, situación laboral, objetivo) · respondidas el 2026-10-03
