@@ -54,3 +54,6 @@
 - **Pérdida máxima:** unos 18 € (alta de 19 $ en la App Store, **pendiente de consentimiento**).
 - **Criterio de pivote:** menos de 5 instalaciones y 0 de pago a los 60 días del lanzamiento → pasar a la fase 3.
 - **Business plan:** https://claude.ai/artifact/Le4TBMDkk4y9R9tnsk5LWs
+
+- Presentación explicativa del modelo (para el titular): https://claude.ai/artifact/AR9XjtKhaLXuDTVEnaa6uJ
+- Corrección: el MVP no emite facturas (ver DECISIONES.md, por Verifactu).
