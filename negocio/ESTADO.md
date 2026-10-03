@@ -10,6 +10,7 @@ Sin negocio todavía. Caja: 1.500 € · gastado 0 € · comprometido 0 €/mes
 
 ## Reglas del titular
 - **Cero gasto sin consentimiento explícito** (2026-10-03).
+- **Antes de estructurar nada (Fase 2/3), presentar al titular una presentación de socio tipo inversor** con todo el análisis y el business plan del negocio elegido (2026-10-03).
 
 ## Bloqueos
 1. **Red restringida:** WebFetch y curl bloqueados para casi todos los dominios. La Fase 1 solo puede usar extractos de buscador, sin abrir las fuentes (incumple el principio de evidencia). → T-001
