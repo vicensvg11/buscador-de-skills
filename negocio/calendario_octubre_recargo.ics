@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Recargo+//Calendario octubre//ES
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:recargo-oct-0@negocio
+DTSTAMP:20261003T220000Z
+DTSTART;TZID=Europe/Madrid:20261004T190000
+DURATION:PT15M
+SUMMARY:S0 · Red del entorno (Recargo+)
+DESCRIPTION:Ampliar la red del entorno de Claude Code a Full. Detalle: negocio/CALENDARIO_OCTUBRE.md, sesión 0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recargo-oct-1@negocio
+DTSTAMP:20261003T220000Z
+DTSTART;TZID=Europe/Madrid:20261006T190000
+DURATION:PT45M
+SUMMARY:S1 · Cuentas de Shopify y repositorio (Recargo+)
+DESCRIPTION:Shopify Partners + tienda de desarrollo recargo-dev + repo privado recargo-plus con acceso de Claude. Sesión 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recargo-oct-2@negocio
+DTSTAMP:20261003T220000Z
+DTSTART;TZID=Europe/Madrid:20261009T190000
+DURATION:PT45M
+SUMMARY:S2 · Claves de acceso técnicas (Recargo+)
+DESCRIPTION:App en Partners, token de la CLI, token de Cloudflare como variables de entorno. Nunca en el chat. Sesión 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recargo-oct-3@negocio
+DTSTAMP:20261003T220000Z
+DTSTART;TZID=Europe/Madrid:20261014T190000
+DURATION:PT30M
+SUMMARY:S3 · Correo de soporte y conectores (Recargo+)
+DESCRIPTION:Gmail de soporte; conectar Gmail, Shopify (recargo-dev) y Cloudflare en claude.ai. Sesión 3
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recargo-oct-4@negocio
+DTSTAMP:20261003T220000Z
+DTSTART;TZID=Europe/Madrid:20261016T190000
+DURATION:PT45M
+SUMMARY:S4 · Gestoría: elegir y consultar (Recargo+)
+DESCRIPTION:Elegir entre 3 gestorías y enviar las 4 dudas. No contratar todavía. Sesión 4
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recargo-oct-5@negocio
+DTSTAMP:20261003T220000Z
+DTSTART;TZID=Europe/Madrid:20261021T190000
+DURATION:PT45M
+SUMMARY:S5 · Banco y datos de cobro (Recargo+)
+DESCRIPTION:Cuenta bancaria separada (recomendado) + payouts y formulario fiscal en Partners. Sesión 5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recargo-oct-6@negocio
+DTSTAMP:20261003T220000Z
+DTSTART;TZID=Europe/Madrid:20261023T190000
+DURATION:PT45M
+SUMMARY:S6 · Gestor y textos legales (Recargo+)
+DESCRIPTION:Respuesta del gestor, fecha del alta censal, aprobar textos legales y ficha. Sesión 6
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recargo-oct-7@negocio
+DTSTAMP:20261003T220000Z
+DTSTART;TZID=Europe/Madrid:20261027T190000
+DURATION:PT30M
+SUMMARY:S7 · Prueba de la app (Recargo+)
+DESCRIPTION:Guion de prueba de 15 pasos en recargo-dev. Sesión 7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recargo-oct-8@negocio
+DTSTAMP:20261003T220000Z
+DTSTART;TZID=Europe/Madrid:20261029T190000
+DURATION:PT30M
+SUMMARY:S8 · Alta App Store 19 $ y envío a revisión (Recargo+)
+DESCRIPTION:REQUIERE TU OK: pago único de 19 $. Revisar ficha y Submit for review. Sesión 8
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:recargo-oct-9@negocio
+DTSTAMP:20261003T220000Z
+DTSTART;TZID=Europe/Madrid:20261031T190000
+DURATION:PT30M
+SUMMARY:S9 · Revisión mensual (Recargo+)
+DESCRIPTION:Estado, caja, aprobar rutina semanal, plan de noviembre. Sesión 9
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

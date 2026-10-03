@@ -19,6 +19,6 @@ Sin negocio todavía. Caja: 1.500 € · gastado 0 € · comprometido 0 €/mes
 Respuestas de la Fase 0 (2026-10-03): Cataluña (sin cuota cero → escenario A, 130 €/mes de coste fijo), asalariado sin haber sido autónomo en los últimos 2 años (pluriactividad, con tarifa plana de 80 €), objetivo de 1.000 €/mes en el mes 6 = escenario optimista.
 
 ## Próximas 3 acciones
-1. Aprobación del titular: plan, primer euro a unos 60 días, alta de 19 $ en la semana 4.
+1. Ejecutar el calendario de octubre (`CALENDARIO_OCTUBRE.md`); plan aprobado implícitamente por el titular al pedir el calendario (2026-10-03). Los 19 $ siguen pendientes de OK explícito (sesión 8).
 2. Semana 1 (0 €): prueba técnica del recargo en una tienda de desarrollo de Shopify (requiere la cuenta de Shopify Partners del titular).
 3. Semanas 2–4: MVP de la app en el repo.

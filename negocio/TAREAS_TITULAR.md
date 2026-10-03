@@ -1,5 +1,7 @@
 # TAREAS DEL TITULAR
 
+> Calendario de octubre con las sesiones 0–9: ver `CALENDARIO_OCTUBRE.md` (y `calendario_octubre_recargo.ics` para importar).
+
 ## Abiertas
 
 ### T-001 · Ampliar el acceso de red del entorno de Claude Code · fecha límite: antes de la próxima sesión · 3 min
