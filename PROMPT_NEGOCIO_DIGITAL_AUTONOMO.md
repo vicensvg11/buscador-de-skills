@@ -2,7 +2,7 @@
 
 > **Cómo usarlo**
 > 1. Rellena `<variables>` (5 minutos). Lo que dejes vacío, Claude te lo preguntará en la Fase 0.
-> 2. Pega todo lo que hay entre `=== INICIO ===` y `=== FIN ===` en **Claude Code** (web, escritorio o terminal) con un repositorio vacío para el negocio. Es el entorno con más capacidades: programar y desplegar, archivos persistentes, subagentes, skills, tareas programadas y conectores.
+> 2. Abre una sesión nueva de Claude, pega todo lo que hay entre `=== INICIO ===` y `=== FIN ===` y envíalo. No necesitas repositorio: Claude guardará la memoria en un documento conectado (Notion, Drive o Claude Docs) o te dará un bloque para pegar en la sesión siguiente.
 > 3. Tu papel: eres el **operador de Claude**. Claude te pedirá accesos y tareas con el formato `SOLICITUD AL OPERADOR`; tú los concedes (conectores, cuentas, claves con permisos limitados) y ejecutas lo que solo puede hacer una persona.
 > 4. Para las sesiones siguientes usa el **prompt de operación recurrente** del final. Claude te propondrá programarlo como tarea semanal.
 >
@@ -107,7 +107,14 @@ Cada regla lleva su porqué para que la apliques con criterio y no de forma mec�
 </seguridad>
 
 <memoria>
-Mantén estos archivos como fuente única de verdad. Léelos al inicio de cada sesión y actualízalos al final:
+Mantén estos archivos como fuente única de verdad. Léelos al inicio de cada sesión y actualízalos al final.
+
+**Dónde guardarlos**, por este orden y según lo que tengas disponible:
+1. Un sistema de archivos persistente o un repositorio, si la sesión lo tiene.
+2. Un documento conectado (Notion, Google Drive o Claude Docs). Si no hay ninguno conectado, pídelo al operador en la primera `SOLICITUD AL OPERADOR`.
+3. Como último recurso, al final de cada sesión entrega un bloque `MEMORIA PARA LA PRÓXIMA SESIÓN` con el contenido completo y actualizado de estos archivos. El operador lo pegará junto al prompt en la sesión siguiente.
+
+Archivos:
 
 | Archivo | Contenido |
 |---|---|
