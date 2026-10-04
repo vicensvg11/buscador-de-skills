@@ -1,6 +1,6 @@
 # Informe: el negocio digital ideal para ti
 
-*4 de octubre de 2026 · Entrevista completa (bloques A–Q) + investigación con búsqueda web en paralelo (5 líneas) + revisión crítica.*
+*4 de octubre de 2026 · Entrevista completa (bloques A–Q) + investigación con búsqueda web en paralelo (5 líneas) + revisión crítica de un revisor independiente (17 objeciones; las aceptadas están aplicadas y resumidas en el anexo final).*
 
 > **Nota de método.** El proxy de este entorno bloquea la apertura de páginas web; la búsqueda sí funciona. Las cifras con URL salen de los **extractos del buscador** consultados el 04/10/2026, no de leer la página entera: las marco como fuente "en extracto". Lo que no tiene fuente va como `[SUPUESTO · confianza]`. Ninguna cita está inventada, pero las citas textuales son extractos del buscador y conviene abrirlas antes de usarlas en público.
 
@@ -34,9 +34,9 @@
 
 1. **Sabe captar clientes para pymes de servicios con Meta Ads, y tiene datos propios de ello.** → Es a la vez el **producto** (captación para clientes) y el **canal** (captar sus propios clientes sin red).
 2. **Vivió en primera persona el cuello de botella: precalificar leads a mano y filtrar la basura.** → Hoy es justo lo que la IA hace bien: responder en <1 min por WhatsApp, calificar y agendar. Puede vender la solución a un dolor que conoce.
-3. **Sabe cobrar y vender a resultado, con acceso a las ventas reales del cliente.** → Permite ofertas con garantía o variable por resultado, que los portales de leads no dan.
+3. **Sabe cobrar y vender a resultado, con acceso a las ventas reales del cliente.** → Se monetiza como **garantía** ("si no hay X visitas cualificadas, ese mes no pagas"), que los portales de leads no dan, sin renunciar a la cuota fija recurrente.
 4. **n8n con nivel + Claude como operador.** → Entrega casi automática y supervisable: márgenes de servicio de software (~90 %) sin programar él.
-5. **Activos de agencia reutilizables** (dominio, Business Manager con historial, creativos, CPL agregados). → Arranque en días, no meses; cuentas con historial sufren menos bloqueos `[SUPUESTO · media]`.
+5. **Activos de agencia reutilizables** (dominio, Business Manager con historial, creativos, CPL agregados). → Arranque en días, no meses `[SUPUESTO · media: que el historial reduzca bloqueos no está demostrado]`. *Ojo:* reutilizarlos te vincula con tu identidad anterior; para la marca nueva conviene crear dominio y cuenta publicitaria nuevos dentro del mismo Business Manager.
 6. **Catalán nativo.** → Anuncios, landing y agente de WhatsApp en catalán para Cataluña, donde parte de la competencia solo opera en castellano `[SUPUESTO · media; Clara Assistant sí ofrece catalán]`.
 
 *No cuenta como ventaja:* la red personal y el VHIR (vetados por él), ni "usar IA" (ya es lo mínimo que tiene todo el mundo).
@@ -115,6 +115,13 @@ Escalas 1–5. "Comod." = riesgo de comoditización por IA (5 = máximo). "Encaj
 | SEO, afiliación, marketplaces puros, SaaS horizontal, contenido | No dan señales en 3 meses o están comoditizados. |
 | Kit IA, Recargo+ | Cumplimiento normativo (vetado). |
 | Cualquier vertical sanitario con datos de salud | RGPD art. 9 + publicidad sanitaria regulada → riesgo reputacional y legal alto `[SUPUESTO · media]`. |
+| **Anonimato total como autónomo** | La LSSI (art. 10) obliga a publicar nombre, NIF y domicilio en la web; facturas, contratos y verificaciones de Meta, WhatsApp y Stripe van a tu nombre. **Anonimato real solo con una SL** (constitución ~300–600 € + gestoría ~80–150 €/mes `[SUPUESTO · media]`). Como autónomo: marca comercial visible, pero tu nombre es consultable. |
+
+**Obligaciones propias del negocio** (no son "vender cumplimiento normativo", que sigue vetado, sino cumplir tú):
+- **RGPD:** tratarás los datos de los leads de tus clientes → eres **encargado del tratamiento**. Necesitas un contrato del art. 28 con cada cliente y declarar a Anthropic y al servidor como subencargados (transferencia internacional a EE. UU. cubierta por el marco UE-EE. UU. `[SUPUESTO · media; verificar]`).
+- **WhatsApp:** el número debe ser **del cliente** (su cuenta de WhatsApp Business), con tu marca como proveedor técnico, porque el lead dio su consentimiento al reformista, no a ti. Desde el 15-01-2026 Meta solo admite bots con una función de negocio concreta ([respond.io](https://respond.io/blog/whatsapp-general-purpose-chatbots-ban)): el agente se limita a calificar y agendar.
+- **Ley de IA, art. 50:** el agente dice que es IA en el primer mensaje.
+- **Anuncios de reformas en Meta:** "housing repairs" figura dentro de la categoría especial de vivienda, obligatoria en EE. UU. y "partes de Europa", que impide segmentar por edad, sexo o código postal ([Jon Loomer](https://www.jonloomer.com/special-ad-categories-meta-ads/), [Data Axle](https://www.data-axle.com/resources/blog/meta-special-ad-categories-rules/)). `[SUPUESTO · verificar si aplica en España]`. Afecta a los anuncios del cliente, no a tus anuncios para captar reformistas; con segmentación amplia sigue funcionando.
 
 **Permitido con condiciones:** llamada **humana** B2B a números profesionales con interés legítimo documentado y filtro Robinson (tú, puntualmente); agente IA que **responde** a leads que pidieron contacto (con aviso de IA); campañas a la base de datos del propio cliente solo si tiene consentimiento.
 
@@ -198,7 +205,7 @@ Leyenda: ★ = apoyada en tus ventajas injustas. Precios orientativos `[SUPUESTO
 **Vetados (incluidos solo para que el mapa esté completo)**
 33. Newsletter de pago de obras y licitaciones. 34. Comunidad de pago de reformistas. 35. Directorio de reformistas verificados. 36. Curso de Meta Ads para reformistas.
 
-*24 de 36 ideas (67 %) se apoyan en tus ventajas injustas.*
+*23 de 36 ideas (64 %) se apoyan en tus ventajas injustas.*
 
 ---
 
@@ -228,8 +235,8 @@ Notas 1–5 × pesos de la sección 4 → resultado sobre 100.
 | 1 | Citas cualificadas para reformistas (servicio) | 4 | 3 | 4 | 4 | 4 | 3 | 4 | 5 | 4 | 3 | **77** |
 | 27 | Venta de citas exclusivas con marca propia | 3 | 4 | 4 | 4 | 3 | 3 | 4 | 5 | 4 | 2 | **73** |
 | 3 | Citas cualificadas para clínicas | 4 | 3 | 4 | 4 | 5 | 2 | 4 | 3 | 3 | 2 | **73** |
+| 6 | Recuperador de presupuestos | 4 | 4 | 3 | 3 | 3 | 2 | 5 | 5 | 4 | 4 | **73** |
 | 2 | Citas cualificadas para solar/aerotermia | 4 | 3 | 4 | 2 | 4 | 3 | 4 | 4 | 4 | 3 | **72** |
-| 6 | Recuperador de presupuestos | 4 | 4 | 3 | 3 | 2 | 2 | 5 | 5 | 4 | 4 | **71** |
 | 4 | Presupuesto instantáneo para mudanzas | 3 | 3 | 4 | 3 | 3 | 3 | 4 | 5 | 4 | 3 | **70** |
 | 8 | Speed-to-lead horizontal | 4 | 4 | 3 | 3 | 3 | 2 | 5 | 4 | 3 | 3 | **69** |
 | 11 | CRM vertical marca blanca | 4 | 4 | 3 | 3 | 3 | 2 | 4 | 4 | 3 | 3 | **67** |
@@ -241,7 +248,7 @@ Notas 1–5 × pesos de la sección 4 → resultado sobre 100.
 - *Pago reformas 4:* ya pagan 449–2.500 €/mes a generadores de leads ([generacionleads](https://generacionleads.es/), [reformasleads](https://reformasleads.com/), [reforleads](https://reforleads.com/precios)).
 - *Pago idea 27 = 3:* el mercado de leads es barato: 10–21 €/lead en [Servy](https://servy.es/reformas/), 15 €/lead efectivo en Generación Leads → margen estrecho si tú pagas los anuncios.
 - *Demanda solar 2:* instalaciones residenciales −17 % en 2025 ([pv-magazine](https://www.pv-magazine.es/2026/01/30/espana-sumo-1-139-mw-de-autoconsumo-en-2025/)).
-- *Pago idea 6 = 2:* el seguimiento ya viene dentro de CRMs verticales a 89–299 €/mes ([ReformaBot](https://reformabot.com/blog/software-reformas-espana-guia/)).
+- *Pago idea 6 = 3:* el seguimiento ya viene dentro de CRMs verticales a 89–299 €/mes ([ReformaBot](https://reformabot.com/blog/software-reformas-espana-guia/)), pero un servicio "hecho por ti" sin cambiar de CRM compite igual que la idea 1 con las agencias (corregido tras la revisión: antes era 2). Empata con las ideas 27 y 3; por eso se integra en el negocio ideal como **plan de entrada**.
 - *Defensibilidad 1 en reseñas y recepcionista:* existen desde 29–50 €/mes ([Clara](https://claraassistant.com/dentistas/), [Recepcionista.com](https://ai-answering-review.com/es/reviews/recepcionista-com/), [Tus 5 Estrellas](https://tus5estrellas.es/)).
 - *Canal 4 en verticales:* CPL Meta reformas 8–25 € ([adsventas](https://adsventas.es/blog/publicidad-para-empresas-de-reformas)); targeting B2B de reformistas en Meta es impreciso `[SUPUESTO · media]`, por eso no es 5.
 - *Riesgo 2 en clínicas:* datos de salud y publicidad sanitaria `[SUPUESTO · media]`. *Riesgo 2 en idea 27:* tú adelantas el gasto en anuncios y cedes datos de particulares (necesita consentimiento explícito de cesión).
@@ -269,14 +276,16 @@ Notas 1–5 × pesos de la sección 4 → resultado sobre 100.
 | [Habitissimo](https://soporte.habitissimo.com/hc/es/articles/204266943--Cu%C3%A1nto-cuesta-habitissimo) | Contactos compartidos | ~12–14 € por contacto + cuotas |
 | Agencias Meta Ads locales ([osyris](https://osyrismarketingdigital.com/blog/agencia-meta-ads-que-hace-como-elegir-precios)) | Gestión de campañas sin calificación | 300–800 €/mes + inversión |
 
-*Tu hueco:* ninguno de estos combina **anuncios + respuesta IA inmediata + calificación + seguimiento de presupuestos** a menos de 500 €/mes con cuenta propia del cliente.
+*Tu hueco, con el coste total para el cliente:* tu cliente paga 390 € de cuota **+ 300–500 € de anuncios = 690–890 €/mes**, más que Generación Leads (449 €, leads incluidos). No ganas por precio de cuota, sino por **coste por visita cualificada y exclusiva**: con CPL de 8–25 € y 30–40 % de calificación, la visita sale a ~25–80 € para él, frente a leads compartidos de 12–30 € de los que, según las quejas, convierte una pequeña parte (sección de citas). Además, los anuncios y los datos quedan en **su** cuenta. Este argumento hay que demostrarlo con los pilotos; hoy es `[SUPUESTO · media]`.
+
+*Regla de exclusividad:* un solo cliente por zona y tipo de obra, para que tus clientes no compitan en la misma subasta. Reduce el mercado útil, pero es un argumento de venta.
 
 **Citas reales de clientes (extractos de buscador, abrir antes de usar en público).**
 - Habitissimo, foro: «de 40 contactos solo 1 puede contactarte y sin éxito seguro» y «la gente ni contesta el teléfono» — [denuncioestafa](https://www.denuncioestafa.com/foro/estafa-timos-y-enganos-en-internet-portales-web/habitissimo-me-siento-estafado/).
 - Habitissimo, Trustpilot (3,5/5, 4.739 opiniones): un autónomo invirtió 200 € y solo logró contactar con dos clientes — [Trustpilot](https://www.trustpilot.com/review/habitissimo.es).
 - Profesionales que gastan más de 500 € en leads y apenas consiguen un par de trabajos — [clicreparacion](https://clicreparacion.com/habitissimo-opiniones/).
 - Cronoshare: ofertas «que no son reales» y clientes que «ya no necesitan el servicio» — [Trustpilot](https://es.trustpilot.com/review/cronoshare.com?page=6).
-- Velocidad: contactar en la primera hora multiplica ×7 la probabilidad de calificar un lead ([HBR 2011](https://hbr.org/2011/03/the-short-life-of-online-sales-leads)).
+- Velocidad: contactar en la primera hora multiplica ×7 la probabilidad de calificar un lead ([HBR, estudio de 2011](https://hbr.org/2011/03/the-short-life-of-online-sales-leads); antiguo, pero el orden de magnitud lo repiten estudios posteriores como el de [MIT/InsideSales](https://www.leandata.com/blog/speed-to-lead-speed-is-the-key-to-lead-conversion/)).
 
 **Economía unitaria (por cliente).**
 | Concepto | Valor |
@@ -284,24 +293,27 @@ Notas 1–5 × pesos de la sección 4 → resultado sobre 100.
 | Precio | 390 €/mes + 390 € de alta (anuncios aparte, pagados por el cliente a Meta) |
 | Coste variable | ~25 €/mes (API de Claude, mensajes de WhatsApp, parte de n8n) `[SUPUESTO · media]` |
 | Margen bruto | **≈94 %** (≈365 €/mes) |
-| CAC | 70–875 €, punto central ~200 € (CPL 8–35 € × 20–40 % a llamada × 20–30 % cierre) `[SUPUESTO · media]` |
-| Recuperación | Con alta de 390 €: **en el primer mes** si CAC ≤ 390 €; ≤ 3 meses hasta CAC ~1.100 € |
+| CAC | 70–875 €; **punto central ~300 €** (puntos medios: CPL 21,5 € ÷ 30 % a llamada ÷ 25 % cierre ≈ 290 €). El CPL de 8–35 € es de "servicios B2B" en general, no de dueños de reformas → `[SUPUESTO · media-baja]` hasta el piloto |
+| Recuperación | Clientes de pago (con alta): 1–2 meses con CAC 300 €. Los 3 primeros (pilotos con mes gratis y alta condicional): 2–3 meses |
 | Churn | 3–5 %/mes típico SMB; 1,6 % en agencias con retainer ([focus-digital](https://focus-digital.co/average-marketing-agency-churn/)) |
-| LTV (churn 5 %) | ≈ 365 × 20 = **7.300 €** → LTV/CAC ≈ 36 con CAC 200 € |
-| Tu tiempo | ~1 h/mes/cliente de supervisión + 1 llamada de venta por cliente `[SUPUESTO · media]` |
+| LTV (churn 5 %) | ≈ 365 × 20 = **7.300 €** → LTV/CAC ≈ 24 con CAC 300 € |
+| Tu tiempo | **3–5 llamadas de venta por cliente cerrado**; ~5 h de alta por cliente (cuenta de WhatsApp, accesos, calendario, creatividades); **2–3 h/mes/cliente** después (quejas de "leads malos", rotación de creatividades, revisión). Con 15–30 h/mes, tu tope sin ayuda es **~8–10 clientes** `[SUPUESTO · media]` |
 
-**Proyección** (modelo con alta como autónomo al primer cliente, tarifa plana 12 meses, gestoría 45 €/mes, ayuda externa desde 16 clientes; beneficio antes de IRPF; tras IRPF ≈ ×0,7 por tu tramo marginal `[SUPUESTO · media]`):
+**Proyección** (corregida tras la revisión). Modelo: alta como autónomo con el primer cliente, tarifa plana 12 meses y después cuota por tramo (300–530 €); gestoría 45 €/mes; coste variable 25 €/cliente; los 3 primeros clientes son pilotos con 1 mes gratis y sin alta; ayuda externa desde 10 clientes (400 €/mes) y desde 25 (1.200 €/mes). "Neto" = después de IRPF a ~30 % el primer año y ~42 % después, porque se suma a tu sueldo `[SUPUESTO · media]`. Cifras mensuales.
 
 | Escenario | Supuestos | Mes 6 | Mes 12 | Mes 36 |
 |---|---|---|---|---|
-| Pesimista | 0,5 clientes/mes desde mes 3, churn 8 %, 290 €/mes sin alta | 2 clientes · 135 €/mes | 3–4 clientes · **600 €/mes** | 6 clientes · 1.000 €/mes |
-| Base | 1 cliente/mes (1,5 desde mes 13), churn 5 %, 390 €/mes + alta | 4–5 clientes · **1.640 €/mes** | 9 clientes · **3.130 €/mes** | 24 clientes · **7.800 €/mes** |
-| Optimista | 2 clientes/mes (3 desde mes 13), churn 3 % | 9 clientes · 3.670 €/mes | 19 clientes · 6.760 €/mes | 61 clientes · 20.800 €/mes |
+| Pesimista | 0,4 clientes/mes desde mes 3, churn 8 %, 290 €/mes sin alta, 150 €/mes de anuncios | 1–2 clientes · **pérdidas** | 3 clientes · 320 € netos | 5 clientes · 400 € netos → **por debajo de tu mínimo de 500 €: abandono en el mes 3–4** con ~700–1.100 € perdidos |
+| Base | 0,7 clientes/mes (1 desde mes 13), churn 5 %, 390 €/mes + alta, 200 €/mes de anuncios (400 € desde mes 13) | 3 clientes · **640 € netos** (915 € antes de IRPF) | 6 clientes · **1.480 € netos** (2.110 € antes) | 16 clientes · **2.760 € netos** (4.760 € antes) |
+| Optimista | 1,5 clientes/mes (2,5 desde mes 13), churn 3 %, 300 €/mes de anuncios (700 € desde mes 13) | 7 clientes · 1.850 € netos | 14 clientes · 3.400 € netos | 50 clientes · 9.670 € netos (16.700 € antes) |
 
-*Corrección de optimismo:* el escenario base supone un CAC de ~200 €, **no demostrado**. El pesimista real es peor: no cerrar ningún cliente en 3 meses y parar con ~600–900 € perdidos. Por eso el plan de 30 días mide exactamente ese CAC antes de gastar más.
+*Lectura honesta:*
+- Tu hito de **1.000–2.000 €/mes netos en el mes 6 solo se alcanza en el escenario optimista**. En el base llega hacia el mes 9–12.
+- La pérdida acumulada máxima ronda **900–1.100 €** en los meses 3–5 (base y optimista), dentro de tus 1.200 € aceptables pero con poco margen. El base recupera la inversión hacia el mes 6.
+- El CAC de 300 € **no está demostrado**: el plan de 30 días lo mide antes de gastar más.
 
 **Plan para los primeros 10 clientes.**
-1. **Clientes 1–3 (semanas 2–6):** campaña de Meta Ads (100–150 €) dirigida a dueños de empresas de reformas en el área metropolitana de Barcelona, con oferta piloto: «primer mes de gestión gratis, solo pagas los anuncios; si no te agendamos al menos 5 visitas cualificadas, no pagas el alta». Formulario nativo → el propio agente IA responde y agenda la llamada contigo (demostración del producto).
+1. **Clientes 1–3 (semanas 2–6):** campaña de Meta Ads (100–150 €) dirigida a dueños de empresas de reformas en el área metropolitana de Barcelona, con oferta piloto: «primer mes de gestión gratis, solo pagas los anuncios; si no te agendamos al menos 5 visitas cualificadas, no pagas el alta». Formulario nativo → el propio agente IA responde y agenda la llamada contigo (demostración del producto). *En la proyección, los ingresos de estos 3 pilotos empiezan un mes más tarde y sin alta asegurada.* Plan de entrada alternativo para quien no quiere invertir en anuncios: solo el **recuperador de presupuestos** a 149 €/mes (idea 6), con mejora posterior al sistema completo.
 2. **Clientes 4–6 (semanas 6–10):** casos con cifras de los pilotos (citas/semana, coste por cita) en la landing y en los anuncios; Malt y Fiverr como escaparate secundario.
 3. **Clientes 7–10 (semanas 10–16):** programa de referidos (1 mes gratis por cliente traído) y prueba de 2–3 socios a comisión del 15 % recurrente (tiendas de materiales, interioristas), contactados por ti o por llamada humana con Robinson.
 
@@ -314,6 +326,11 @@ Notas 1–5 × pesos de la sección 4 → resultado sobre 100.
 | Churn alto en los primeros 90 días | Bajas en mes 2–3 | Onboarding con objetivos claros; contrato de 3 meses mínimo |
 | Bloqueo de cuenta de WhatsApp o Meta | Avisos de calidad | Cuentas del cliente, plantillas aprobadas, opt-in claro; plan B por SMS/email |
 | Tú no tienes tiempo para las llamadas de venta | Leads tuyos sin atender >24 h | Agenda automática en franjas de 17–20 h; máximo 3 llamadas/semana |
+| Saturación de tu tiempo con 8–10 clientes | >1 h/día de forma sostenida | Ayuda externa (gestor de cuentas freelance) pagada con los ingresos, ya incluida en la proyección |
+| Problema RGPD o de WhatsApp | Reclamación de un lead, aviso de Meta | Contrato art. 28, cuenta de WhatsApp del cliente, bot limitado a calificar y agendar, aviso de IA |
+| Clientes que compiten entre sí | Dos reformistas en la misma zona | Exclusividad por zona y tipo de obra |
+| Repetir el cierre de tu antigua agencia | El cuello de botella vuelve a ser tu tiempo | Esta vez lo que te ahogaba (llamar y calificar) lo hace el agente; si aun así no da, se para |
+| Un conflicto con tu empleo | — | Lo declaraste resuelto; como precaución opcional, tener por escrito que no hay incompatibilidad antes del alta |
 
 ---
 
@@ -355,7 +372,7 @@ Notas 1–5 × pesos de la sección 4 → resultado sobre 100.
 
 **Economía unitaria.** Precio 490 €/mes; coste variable ~30 €; margen ~94 %. CAC más alto que en reformas por la competencia (estimado 300–600 € `[SUPUESTO · media]`).
 
-**Proyección.** Similar a la idea 1 con −30 % de clientes por competencia y +25 % de precio: base mes 12 ≈ 2.600 €/mes antes de IRPF `[SUPUESTO · baja]`.
+**Proyección.** Similar a la idea 1 con −30 % de clientes por competencia y +25 % de precio: base mes 12 ≈ 1.700 €/mes antes de IRPF (≈1.200 € netos) `[SUPUESTO · baja]`.
 
 **Pre-mortem.** Competencia muy activa y barata; datos de salud (RGPD art. 9) en las conversaciones de WhatsApp; publicidad sanitaria con reglas propias; clínicas grandes que exigen personalización. **Conclusión:** vertical de **expansión**, no de arranque.
 
@@ -370,14 +387,15 @@ Notas 1–5 × pesos de la sección 4 → resultado sobre 100.
 | **Qué es** | Servicio mensual que convierte la inversión en anuncios de un reformista en **visitas cualificadas en su agenda**, y persigue sus presupuestos hasta el sí o el no. |
 | **Para quién** | Empresas de reformas de vivienda de 1–20 empleados en el área de Barcelona, después Cataluña, después España. Más tarde: mudanzas, instaladores, clínicas. |
 | **Problema** | Leads basura, compartidos y caros; nadie contesta a tiempo; presupuestos que se pierden por falta de seguimiento. |
-| **Cómo gana dinero** | 390 € de alta + 390 €/mes (contrato mínimo 3 meses). Anuncios pagados por el cliente a Meta. Fase 2: paquetes de citas exclusivas con marca propia. |
+| **Cómo gana dinero** | Dos planes. **Sistema completo:** 390 € de alta + 390 €/mes (contrato mínimo 3 meses), con anuncios pagados por el cliente a Meta y exclusividad por zona. **Plan de entrada:** recuperador de presupuestos a 149 €/mes, sin anuncios, como puerta al plan completo. Garantía: si no hay el mínimo de visitas pactado, ese mes no se paga. Fase 2: paquetes de citas exclusivas con marca propia (idea 27). |
 | **Por qué tú** | Ya lo hiciste a mano y sabes dónde falla; dominas Meta Ads y n8n; tienes Business Manager con historial y datos de CPL; hablas catalán. |
 | **Canal** | Meta Ads a dueños de empresas de reformas (100–200 €/mes) + pilotos a cambio de casos + referidos + socios a comisión. Nada de llamadas automatizadas ni emails en frío. |
 | **Automatización** | n8n (servidor propio) + API de Claude + API de WhatsApp Business + Google Calendar. Claude: crea y optimiza anuncios, mantiene flujos, revisa conversaciones, prepara informes semanales. Tú: llamadas de venta, aceptar clientes, aprobar gastos, revisar. |
-| **Cifras esperadas** | Base: ~1.640 €/mes antes de IRPF en el mes 6, ~3.100 €/mes en el mes 12, ~7.800 €/mes en el mes 36. Pesimista: ~600 €/mes en el mes 12. Inversión inicial: 300–600 € del capital. |
+| **Cifras esperadas** (netas tras IRPF) | Base: ~640 €/mes en el mes 6, ~1.480 €/mes en el mes 12, ~2.760 €/mes en el mes 36. Optimista: ~1.850 €/mes en el mes 6. Pesimista: abandono en el mes 3–4. Pérdida máxima acumulada esperada: ~900–1.100 €. |
+| **Forma jurídica** | Autónomo con tarifa plana (tu elección): marca comercial visible, pero tu nombre y NIF consultables. Si el anonimato es innegociable de verdad, hay que pasar a una SL; eso suma ~300–600 € de constitución y ~100 €/mes de gestoría, y el escenario pesimista queda en pérdidas. **Decisión tuya.** |
 | **Primeros 30 días** | Semana 1: marca, dominio (reutilizar), landing en catalán y castellano, flujo n8n de demo. Semana 2: alta de cuentas (WhatsApp Business API, Meta) y campaña piloto de 100–150 €. Semana 3: llamadas con interesados y 2–3 pilotos firmados. Semana 4: pilotos funcionando, primer informe, decisión con datos (seguir, ajustar o cambiar de vertical). |
 
-**Regla de éxito a 3 meses** (tus señales): ≥3 clientes de pago, CAC ≤ 400 €, ≥1 cliente nuevo cada 3 semanas y churn 0 en los pilotos convertidos. Si no se cumple en el mes 3, se cambia el vertical (mudanzas o clínicas) antes de abandonar.
+**Regla de éxito a 3 meses** (tus señales): ≥3 clientes activos (pilotos incluidos) con ≥2 ya pagando, CAC ≤ 400 €, ≥1 cliente nuevo cada 4–6 semanas y ningún piloto perdido. Si no se cumple en el mes 3, se cambia el vertical (mudanzas o clínicas) o se pasa al plan de entrada de 149 € antes de abandonar.
 
 ---
 
@@ -389,15 +407,17 @@ Notas 1–5 × pesos de la sección 4 → resultado sobre 100.
 | Precio | 390 €/mes + alta | 19–79 $/mes | 69 € |
 | Mercado | ~1.950 reformistas objetivo en Cataluña; ×5 en España | Unos cientos a 2.000 tiendas `[SUPUESTO · baja]` | Saturado, competidor a 199 € |
 | Canal | Meta Ads (tu fuerte) | Tienda de apps (22.546 apps; 51 % sin reseñas) | SEO saturado |
-| Tiempo al 1er ingreso | 3–6 semanas | 2–4 meses | — |
-| Base mes 12 | ~3.100 €/mes | ~1.000 €/mes (estimación previa) | — |
-| Riesgo principal | CAC no demostrado; churn | Shopify o Quaderno (29 $/mes, ya gestiona recargo) lo absorben | — |
+| Tiempo al 1er ingreso | 5–8 semanas (pilotos con mes gratis) | 2–4 meses | — |
+| Base mes 12 | ~1.480 €/mes netos (modelo de este informe) | ~1.000 €/mes en la sesión anterior (no recalculado aquí) | — |
+| Tiempo por cliente | 2–3 h/mes + venta | Casi nulo (autoservicio) | Nulo |
+| Anonimato | Parcial (llamadas, contratos) | Alto | Alto |
+| Riesgo principal | CAC no demostrado; churn; tu tiempo | Shopify o Quaderno (29 $/mes, ya gestiona recargo) lo absorben | — |
 | Encaja con innegociables | Sí | **No** (cumplimiento fiscal) | **No** (cumplimiento) |
 | Usa tus ventajas | Sí (5 de 6) | Ninguna | Ninguna |
 
-**Recomendación: (a) cambiar al negocio ideal.** Recargo+ y el Kit IA violan tu innegociable (b) y no usan ninguna ventaja tuya.
+**Recomendación: (a) cambiar al negocio ideal.** El motivo decisivo es uno: Recargo+ y el Kit IA violan tu innegociable (b). Recargo+ sí gana en anonimato y en tiempo por cliente, y eso hay que reconocerlo, pero no usa ninguna ventaja tuya y depende de una tienda de apps saturada.
 - **Ganas:** un canal que dominas, un dolor que conoces, márgenes de ~90 %, recurrencia y señales medibles en semanas.
-- **Pierdes:** la escalabilidad "pura" de un software (cada cliente añade algo de supervisión) y el anonimato total (habrá llamadas con clientes, aunque bajo la marca).
+- **Pierdes:** la escalabilidad "pura" de un software (cada cliente añade 2–3 h/mes hasta que contrates ayuda) y parte del anonimato (llamadas y contratos con clientes, aunque bajo la marca).
 
 ---
 
@@ -415,7 +435,9 @@ Ningún gasto sin tu consentimiento. Todo a nombre de la **marca**, no personal.
 | 6 | n8n | Servidor propio | ~5–10 €/mes (VPS) o ~24 €/mes (n8n cloud) | Tú pagas; yo instalo y configuro |
 | 7 | API de Claude | Clave con límite de gasto mensual | ~10–30 €/mes al principio | Tú creas la clave con tope; yo la uso solo en n8n |
 | 8 | Stripe | Cobros recurrentes | Comisión por transacción | Cuando haya primer cliente |
-| 9 | Alta censal (036) + RETA + gestoría online | Tú | 80 €/mes (tarifa plana) + ~30–60 €/mes | **El día que un cliente acepte pagar**, no antes |
+| 9 | Alta censal (036) + RETA + gestoría online | Tú | 80 €/mes (tarifa plana) + ~30–60 €/mes | **Antes de la primera factura** (el 036, antes que el RETA, o pierdes la tarifa plana). Los pilotos gratuitos se pueden preparar antes |
+| 10 | Decisión: autónomo o SL | Tú | SL: ~300–600 € + ~100 €/mes extra | Decidir antes del alta (sección 9) |
+| 11 | Plantillas legales | Yo las redacto, tú las validas con la gestoría | 0 € | Contrato de servicio, contrato de encargado del tratamiento (art. 28 RGPD), aviso legal y política de privacidad |
 
 **Tope de gasto mensual propuesto para los primeros 3 meses: 250 €/mes** (anuncios 150 + herramientas 50 + API 30 + margen 20). Pendiente de tu aprobación.
 
@@ -424,3 +446,27 @@ Ningún gasto sin tu consentimiento. Todo a nombre de la **marca**, no personal.
 ## 12. Siguiente paso
 
 **Esta semana: aprueba (o ajusta) un piloto de captación de 150 € en Meta Ads para medir si conseguimos dueños de empresas de reformas interesados a menos de 40 € por lead.** Si me das el sí, en 48 h tendrás para revisar la marca, la landing, los anuncios y el flujo de demo, y la campaña no se lanza hasta que la apruebes.
+
+---
+
+## Anexo · Qué cambió tras la revisión crítica
+
+Un revisor independiente encontró 17 problemas. Todas las cuentas cuadraban con sus supuestos; los fallos estaban en los supuestos. Cambios aplicados:
+
+| Objeción | Cambio |
+|---|---|
+| CAC de 200 € optimista | Central de 300 €; base de 0,7 clientes/mes. El escenario base del mes 12 baja de ~3.100 € antes de IRPF a ~1.480 € netos. |
+| Tiempo del fundador infravalorado | 3–5 llamadas por cliente cerrado, ~5 h de alta y 2–3 h/mes por cliente; ayuda externa desde 10 clientes. |
+| Pilotos gratis contradecían la economía | Ingresos de los 3 primeros clientes retrasados un mes y sin alta. |
+| IRPF demasiado bajo a partir del año 2 | ~30 % el primer año y ~42 % después. |
+| Anonimato imposible como autónomo | Añadida la decisión entre autónomo y SL, con su coste. |
+| RGPD y WhatsApp olvidados | Contrato art. 28, número de WhatsApp del cliente, bot limitado al negocio. |
+| Coste real para el cliente | El hueco competitivo se argumenta por coste por visita, no por cuota. |
+| Clientes que compiten entre sí | Exclusividad por zona y tipo de obra. |
+| Categoría especial de vivienda en Meta | Añadida como supuesto a verificar. |
+| Idea 6 infravalorada | Repuntuada a 73; integrada como plan de entrada de 149 €/mes. |
+| Recuento de ★ | Eran 23 (64 %). |
+| Comparación sesgada con Recargo+ | Se reconoce que gana en anonimato y tiempo; el motivo decisivo es el veto (b). |
+| Pesimista sin conclusión | Explícito: abandono en el mes 3–4. |
+
+**No aceptado:** "no se preguntó por qué cerró la agencia". Sí se preguntó (bloque C): por falta de tiempo para gestionar los leads, que es justo lo que este modelo automatiza.
