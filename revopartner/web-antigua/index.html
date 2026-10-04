@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RevoPartner | Agencia de Marketing Digital</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">Revo<span>Partner</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto" class="nav-cta">Contactar</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-blob blob1"></div>
+      <div class="hero-blob blob2"></div>
+    </div>
+    <div class="hero-content">
+      <span class="hero-badge">Agencia de Marketing Digital</span>
+      <h1>Transforma tu marca.<br /><span class="gradient-text">Dispara tu crecimiento.</span></h1>
+      <p class="hero-subtitle">En RevoPartner combinamos estrategia, creatividad y datos para llevar tu negocio al siguiente nivel. Somos tu partner de marketing de confianza.</p>
+      <div class="hero-actions">
+        <a href="#contacto" class="btn-primary">Empezar ahora</a>
+        <a href="#servicios" class="btn-secondary">Ver servicios</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="150">0</span><span>+</span>
+          <span class="stat-label">Clientes activos</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="320">0</span><span>%</span>
+          <span class="stat-label">ROI medio</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="8">0</span><span>+</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="dashboard-card">
+        <div class="card-header">
+          <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
+          <span>Rendimiento de campaña</span>
+        </div>
+        <div class="chart-area">
+          <div class="chart-bars">
+            <div class="bar" style="height:40%" data-label="Ene"></div>
+            <div class="bar" style="height:55%" data-label="Feb"></div>
+            <div class="bar" style="height:45%" data-label="Mar"></div>
+            <div class="bar" style="height:70%" data-label="Abr"></div>
+            <div class="bar" style="height:60%" data-label="May"></div>
+            <div class="bar active" style="height:90%" data-label="Jun"></div>
+          </div>
+        </div>
+        <div class="card-metrics">
+          <div class="metric">
+            <span class="metric-icon">↑</span>
+            <span>+47% conversiones</span>
+          </div>
+          <div class="metric">
+            <span class="metric-icon">↑</span>
+            <span>+83% tráfico</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGOS -->
+  <section id="logos">
+    <p class="logos-title">Empresas que confían en nosotros</p>
+    <div class="logos-track">
+      <div class="logos-inner">
+        <span>TechCorp</span><span>Innova</span><span>MarketPro</span><span>GrowthLab</span>
+        <span>BrandX</span><span>ScaleUp</span><span>DigitalEdge</span><span>NexGen</span>
+        <span>TechCorp</span><span>Innova</span><span>MarketPro</span><span>GrowthLab</span>
+        <span>BrandX</span><span>ScaleUp</span><span>DigitalEdge</span><span>NexGen</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios">
+    <div class="section-header">
+      <span class="section-badge">Servicios</span>
+      <h2>Todo lo que tu marca necesita</h2>
+      <p>Soluciones de marketing integral diseñadas para generar resultados reales y medibles.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card" data-index="0">
+        <div class="service-icon">📈</div>
+        <h3>Marketing de Performance</h3>
+        <p>Campañas en Google Ads, Meta Ads y más plataformas optimizadas para maximizar tu ROI con datos en tiempo real.</p>
+        <ul>
+          <li>Google & Meta Ads</li>
+          <li>Optimización de conversión</li>
+          <li>Analítica avanzada</li>
+        </ul>
+        <a href="#contacto" class="service-link">Saber más →</a>
+      </div>
+      <div class="service-card featured" data-index="1">
+        <div class="service-badge-card">Popular</div>
+        <div class="service-icon">🎯</div>
+        <h3>Estrategia de Marca</h3>
+        <p>Construimos identidades de marca sólidas que conectan emocionalmente con tu audiencia y te diferencian de la competencia.</p>
+        <ul>
+          <li>Identidad visual</li>
+          <li>Posicionamiento de marca</li>
+          <li>Guías de estilo</li>
+        </ul>
+        <a href="#contacto" class="service-link">Saber más →</a>
+      </div>
+      <div class="service-card" data-index="2">
+        <div class="service-icon">✍️</div>
+        <h3>Contenido & SEO</h3>
+        <p>Creamos contenido estratégico que posiciona tu web en Google y atrae tráfico cualificado de forma orgánica y sostenida.</p>
+        <ul>
+          <li>SEO técnico y on-page</li>
+          <li>Blog y copywriting</li>
+          <li>Link building</li>
+        </ul>
+        <a href="#contacto" class="service-link">Saber más →</a>
+      </div>
+      <div class="service-card" data-index="3">
+        <div class="service-icon">📱</div>
+        <h3>Social Media</h3>
+        <p>Gestionamos tus redes sociales con estrategias de contenido que generan comunidad, engagement y ventas.</p>
+        <ul>
+          <li>Gestión de RRSS</li>
+          <li>Creación de contenido</li>
+          <li>Influencer marketing</li>
+        </ul>
+        <a href="#contacto" class="service-link">Saber más →</a>
+      </div>
+      <div class="service-card" data-index="4">
+        <div class="service-icon">📧</div>
+        <h3>Email Marketing</h3>
+        <p>Diseñamos flujos de email automatizados que nutren leads, fidelizan clientes y generan ventas recurrentes.</p>
+        <ul>
+          <li>Automatización</li>
+          <li>Segmentación avanzada</li>
+          <li>A/B testing</li>
+        </ul>
+        <a href="#contacto" class="service-link">Saber más →</a>
+      </div>
+      <div class="service-card" data-index="5">
+        <div class="service-icon">🌐</div>
+        <h3>Diseño Web & CRO</h3>
+        <p>Creamos webs y landing pages de alto rendimiento optimizadas para convertir visitantes en clientes.</p>
+        <ul>
+          <li>Diseño UX/UI</li>
+          <li>Landing pages</li>
+          <li>Optimización CRO</li>
+        </ul>
+        <a href="#contacto" class="service-link">Saber más →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros">
+    <div class="nosotros-content">
+      <div class="nosotros-text">
+        <span class="section-badge">Nosotros</span>
+        <h2>Somos tu equipo de marketing externo</h2>
+        <p>RevoPartner nació con una misión clara: democratizar el marketing de alto rendimiento para empresas de todos los tamaños. No somos una agencia tradicional; somos un partner estratégico comprometido con tu crecimiento.</p>
+        <p>Combinamos la agilidad de una startup con la experiencia de una agencia consolidada. Nuestro equipo multidisciplinar trabaja codo a codo contigo para entender tu negocio y construir estrategias que realmente funcionan.</p>
+        <div class="nosotros-values">
+          <div class="value-item">
+            <span class="value-icon">🚀</span>
+            <div>
+              <strong>Orientación a resultados</strong>
+              <p>Cada acción está medida y orientada a KPIs concretos.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <span class="value-icon">🤝</span>
+            <div>
+              <strong>Partnership real</strong>
+              <p>Tu éxito es nuestro éxito. Trabajamos como parte de tu equipo.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <span class="value-icon">💡</span>
+            <div>
+              <strong>Innovación continua</strong>
+              <p>Siempre a la vanguardia de las últimas tendencias del marketing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nosotros-team">
+        <h3>Nuestro equipo</h3>
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="avatar" style="background: linear-gradient(135deg, #6366f1, #8b5cf6)">CM</div>
+            <strong>Carlos Martínez</strong>
+            <span>CEO & Estrategia</span>
+          </div>
+          <div class="team-card">
+            <div class="avatar" style="background: linear-gradient(135deg, #ec4899, #f43f5e)">LG</div>
+            <strong>Laura García</strong>
+            <span>Directora Creativa</span>
+          </div>
+          <div class="team-card">
+            <div class="avatar" style="background: linear-gradient(135deg, #14b8a6, #06b6d4)">AR</div>
+            <strong>Andrés Ruiz</strong>
+            <span>Head of Performance</span>
+          </div>
+          <div class="team-card">
+            <div class="avatar" style="background: linear-gradient(135deg, #f59e0b, #f97316)">MS</div>
+            <strong>Marta Sola</strong>
+            <span>SEO & Contenido</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTADOS -->
+  <section id="resultados">
+    <div class="section-header light">
+      <span class="section-badge">Resultados</span>
+      <h2>Números que hablan por sí solos</h2>
+      <p>Casos reales de clientes reales. Estos son algunos de los resultados que hemos conseguido.</p>
+    </div>
+    <div class="results-grid">
+      <div class="result-card">
+        <div class="result-number">+320%</div>
+        <div class="result-label">ROI en campañas de pago</div>
+        <div class="result-desc">E-commerce de moda — 6 meses</div>
+      </div>
+      <div class="result-card">
+        <div class="result-number">+180%</div>
+        <div class="result-label">Tráfico orgánico</div>
+        <div class="result-desc">SaaS B2B — 12 meses de SEO</div>
+      </div>
+      <div class="result-card">
+        <div class="result-number">×4.5</div>
+        <div class="result-label">Leads generados</div>
+        <div class="result-desc">Inmobiliaria — 3 meses</div>
+      </div>
+      <div class="result-card">
+        <div class="result-number">-40%</div>
+        <div class="result-label">Coste por adquisición</div>
+        <div class="result-desc">App móvil — Meta Ads</div>
+      </div>
+    </div>
+    <div class="process-section">
+      <h3>Nuestro proceso</h3>
+      <div class="process-steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <h4>Diagnóstico</h4>
+          <p>Analizamos tu negocio, competencia y mercado para identificar oportunidades reales.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">02</div>
+          <h4>Estrategia</h4>
+          <p>Diseñamos un plan de marketing personalizado y orientado a tus objetivos de negocio.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">03</div>
+          <h4>Ejecución</h4>
+          <p>Implementamos con precisión y velocidad, iterando constantemente para optimizar.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-number">04</div>
+          <h4>Crecimiento</h4>
+          <p>Escalamos lo que funciona y medimos el impacto real en tu negocio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section id="testimonios">
+    <div class="section-header">
+      <span class="section-badge">Testimonios</span>
+      <h2>Lo que dicen nuestros clientes</h2>
+    </div>
+    <div class="testimonios-slider" id="testimonios-slider">
+      <div class="testimonios-track" id="testimonios-track">
+        <div class="testimonio-card">
+          <div class="stars">★★★★★</div>
+          <p>"RevoPartner transformó completamente nuestra presencia digital. En 6 meses triplicamos nuestras ventas online. Son más que una agencia, son parte de nuestro equipo."</p>
+          <div class="testimonio-author">
+            <div class="avatar-sm" style="background: linear-gradient(135deg, #6366f1, #8b5cf6)">JP</div>
+            <div>
+              <strong>Javier Pérez</strong>
+              <span>CEO, ModaOnline</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio-card">
+          <div class="stars">★★★★★</div>
+          <p>"El equipo de RevoPartner es increíblemente profesional. Nuestra estrategia de contenidos y SEO nos ha posicionado como líderes del sector. 100% recomendables."</p>
+          <div class="testimonio-author">
+            <div class="avatar-sm" style="background: linear-gradient(135deg, #14b8a6, #06b6d4)">AI</div>
+            <div>
+              <strong>Ana Iglesias</strong>
+              <span>Marketing Manager, TechSaaS</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio-card">
+          <div class="stars">★★★★★</div>
+          <p>"Llevamos 2 años trabajando con RevoPartner y los resultados no paran de crecer. Su enfoque data-driven y su transparencia marcan la diferencia."</p>
+          <div class="testimonio-author">
+            <div class="avatar-sm" style="background: linear-gradient(135deg, #f59e0b, #f97316)">RM</div>
+            <div>
+              <strong>Roberto Molina</strong>
+              <span>Director Comercial, InmoGroup</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonio-card">
+          <div class="stars">★★★★★</div>
+          <p>"Desde el primer día demostraron entender nuestro negocio. Las campañas de Meta Ads que gestionan generan un ROI que jamás habíamos conseguido internamente."</p>
+          <div class="testimonio-author">
+            <div class="avatar-sm" style="background: linear-gradient(135deg, #ec4899, #f43f5e)">SV</div>
+            <div>
+              <strong>Sofía Vidal</strong>
+              <span>Fundadora, BeautyBrand</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button id="prev-btn" class="slider-btn" aria-label="Anterior">‹</button>
+      <div class="slider-dots" id="slider-dots"></div>
+      <button id="next-btn" class="slider-btn" aria-label="Siguiente">›</button>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="contacto-wrapper">
+      <div class="contacto-info">
+        <span class="section-badge">Contacto</span>
+        <h2>¿Listo para crecer?</h2>
+        <p>Cuéntanos sobre tu proyecto y te prepararemos una propuesta personalizada sin compromiso.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <span>📧</span>
+            <span>hola@revopartner.com</span>
+          </div>
+          <div class="contact-item">
+            <span>📞</span>
+            <span>+34 900 123 456</span>
+          </div>
+          <div class="contact-item">
+            <span>📍</span>
+            <span>Madrid, España</span>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-btn">LinkedIn</a>
+          <a href="#" class="social-btn">Instagram</a>
+          <a href="#" class="social-btn">Twitter</a>
+        </div>
+      </div>
+      <form class="contacto-form" id="contacto-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Nombre *</label>
+            <input type="text" placeholder="Tu nombre" required />
+          </div>
+          <div class="form-group">
+            <label>Empresa</label>
+            <input type="text" placeholder="Tu empresa" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email *</label>
+          <input type="email" placeholder="tu@email.com" required />
+        </div>
+        <div class="form-group">
+          <label>Servicio de interés</label>
+          <select>
+            <option value="">Selecciona un servicio</option>
+            <option>Marketing de Performance</option>
+            <option>Estrategia de Marca</option>
+            <option>Contenido & SEO</option>
+            <option>Social Media</option>
+            <option>Email Marketing</option>
+            <option>Diseño Web & CRO</option>
+            <option>Servicio completo</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Mensaje *</label>
+          <textarea placeholder="Cuéntanos sobre tu proyecto, objetivos y presupuesto aproximado..." rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary full-width">Enviar mensaje</button>
+        <div id="form-success" class="form-success hidden">
+          ✅ ¡Mensaje enviado! Nos pondremos en contacto contigo en menos de 24h.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">Revo<span>Partner</span></a>
+        <p>Tu agencia de marketing digital de confianza. Crecemos contigo.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Servicios</h4>
+          <a href="#servicios">Performance Marketing</a>
+          <a href="#servicios">Estrategia de Marca</a>
+          <a href="#servicios">SEO & Contenido</a>
+          <a href="#servicios">Social Media</a>
+        </div>
+        <div class="footer-col">
+          <h4>Empresa</h4>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#resultados">Casos de éxito</a>
+          <a href="#testimonios">Testimonios</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 RevoPartner. Todos los derechos reservados.</p>
+      <div class="footer-legal">
+        <a href="#">Política de privacidad</a>
+        <a href="#">Aviso legal</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
