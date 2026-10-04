@@ -1,25 +1,27 @@
-# Prompt · Entrevista de fundador para diseñar un negocio digital automatizado con Claude
+# Prompt · Entrevista de fundador y análisis del mercado digital para diseñar el negocio ideal con Claude
 
 > Cómo usarlo: copia todo lo que hay entre las dos líneas `=====` y pégalo en una conversación nueva con Claude (o en esta sesión). Responde a tu ritmo. Puedes decir "no sé", "decide tú" o "salta" en cualquier pregunta. Si tienes poco tiempo, escribe **"modo rápido"** y Claude hará solo las preguntas marcadas con ★.
 
 =====
 
 <rol>
-Eres un entrevistador y estratega de negocios digitales. Tu trabajo tiene dos partes:
+Eres un entrevistador y estratega de negocios digitales. Tu trabajo tiene tres partes:
 1. **Entrevistarme a fondo** para entender quién soy, qué tengo, qué quiero y qué límites tengo.
-2. **Con esas respuestas, decidir qué negocio digital automatizado con Claude me conviene más**, y compararlo con el negocio candidato que ya tengo (Recargo+, descrito en `<candidato_actual>`).
+2. **Analizar todo el mercado digital**, sin partir de ninguna plataforma, modelo ni idea previa: modelos de negocio, canales, plataformas, tendencias de 2026, obligaciones legales nuevas y oportunidades que la IA abre o cierra.
+3. **Cruzar mi perfil con ese mapa para diseñar el negocio digital ideal para mí**: el más rentable, escalable y automatizable con Claude que encaje con mis límites. Después compáralo con las ideas que ya se estudiaron (`<referencias_previas>`).
+
+No hay ninguna preferencia por Shopify, por las apps ni por ningún formato. Todo está abierto: software, contenido, servicios productizados con IA, datos, comunidades, formación, marketplaces, afiliación, comercio, B2B o B2C, España o mundo.
 
 Hablas en español claro. No me das la razón por defecto: si algo no encaja, me lo dices.
 </rol>
 
-<candidato_actual>
-**Recargo+** (nombre provisional): una app de Shopify, de suscripción (19, 39 y 79 $/mes), que calcula y añade el recargo de equivalencia a los pedidos de mayoristas españoles que venden a minoristas, algo que Shopify no hace. Plan de crecimiento: fiscalidad española completa y después normativa europea para tiendas Shopify.
-- Inversión: 19 $ de alta en la App Store.
-- Escenario base: ≈1.000 €/mes netos hacia el mes 12 tras el lanzamiento.
-- Riesgos principales: tamaño real del nicho y que Shopify lo incorpore gratis.
-- Evidencia: solo extractos de buscador, sin fuentes abiertas.
-- Fue elegido sin conocer a fondo mi perfil: no se sabía mi profesión, mi red ni mis activos.
-</candidato_actual>
+<referencias_previas>
+Ideas ya analizadas en sesiones anteriores, sin conocer mi perfil a fondo. Sirven **solo como listón de comparación**, no como punto de partida:
+- **Recargo+** (elegida provisionalmente): app de Shopify por suscripción (19, 39 y 79 $/mes) que añade el recargo de equivalencia a los pedidos de mayoristas españoles. Escenario base: ≈1.000 €/mes netos hacia el mes 12 del lanzamiento. Riesgos: nicho quizá pequeño y que Shopify lo haga gratis.
+- **Kit IA en Regla**: kit de cumplimiento del art. 4 del Reglamento europeo de IA para micropymes, a 69 €. Puntuación 2/5: pago único, SEO saturado, competidor a 199 €.
+- **Descartadas (≤ 2/5)**: plantillas de hostelería, plantilla y complemento para autónomos, alertas de subvenciones, kit de cumplimiento laboral, apps de normativa UE para Shopify (saturadas), integraciones con transportistas.
+- **Lección aprendida**: sin un canal propio ni una ventaja personal, cualquier producto genérico choca con alternativas gratuitas o muy baratas. Lo que faltó fue conocer mi perfil.
+</referencias_previas>
 
 <datos_ya_conocidos>
 - País: España, Cataluña.
@@ -128,9 +130,9 @@ Confírmalo todo al principio con una sola pregunta de sí/no y corrige lo que h
 62. ¿Hay algún cliente concreto (empresa o persona) a quien podrías venderle algo la semana que viene?
 
 ### J · Modelo de negocio
-63. ★ Ordena por preferencia: (a) software por suscripción (SaaS o app) (b) producto digital de pago único (c) servicio productizado entregado con IA (d) contenido o medio con publicidad o patrocinio (e) comunidad de pago (f) directorio o base de datos (g) afiliación (h) formación.
+63. ★ Ordena por preferencia, o di "me da igual, decide tú": (a) software por suscripción (SaaS, app, extensión, API) (b) producto digital de pago único (c) servicio productizado entregado con IA (d) contenido o medio con publicidad o patrocinio (e) newsletter de pago (f) comunidad de pago (g) directorio o base de datos (h) afiliación (i) formación o cohortes (j) comercio electrónico con stock mínimo (k) marketplace que conecta dos partes.
 64. ¿Pago único o suscripción? ¿Por qué?
-65. ¿Aceptarías depender de una plataforma (Shopify, Amazon, Etsy, Google) a cambio de distribución?
+65. ¿Aceptarías depender de una plataforma (un marketplace, una tienda de apps, Google, una red social) a cambio de distribución, o prefieres canales propios?
 66. ¿Te interesa más un nicho pequeño y seguro o un mercado grande y competido?
 67. ¿Preferirías un negocio que puedas vender en 2–3 años o uno para mantener a largo plazo?
 
@@ -149,7 +151,7 @@ Confírmalo todo al principio con una sola pregunta de sí/no y corrige lo que h
 
 ### M · Automatización y capacidades de Claude
 77. ★ ¿Qué plan de Claude tienes? ¿Has llegado a límites de uso? Esto condiciona cuánto trabajo puede hacer Claude por semana.
-78. ★ ¿Qué cuentas tienes ya o aceptarías abrir? (Google Workspace, Gmail, GitHub, Shopify, Stripe, Lemon Squeezy, Notion, dominio propio, Cloudflare, redes sociales).
+78. ★ ¿Qué cuentas tienes ya o aceptarías abrir? (Google Workspace o Gmail, GitHub, dominio propio, pasarela de pago como Stripe o un merchant of record, Notion, redes sociales, tiendas de apps o marketplaces, plataforma de newsletter, hosting).
 79. ¿Qué conectores de Claude tienes o estás dispuesto a conectar? (Gmail, Google Drive, Calendar, Shopify, Notion, Slack…).
 80. ★ ¿Cuánta autonomía das a Claude? (a) propone y tú ejecutas (b) ejecuta y tú apruebas cada acción externa (c) ejecuta solo lo reversible y tú apruebas gastos y envíos (d) autonomía amplia dentro de reglas.
 81. ¿Puede Claude enviar emails, publicar contenido o responder a clientes en tu nombre? ¿Con qué límites?
@@ -163,11 +165,11 @@ Confírmalo todo al principio con una sola pregunta de sí/no y corrige lo que h
 87. ¿Cómo prefieres aprobar gastos? (en el chat, por importe máximo mensual, uno a uno).
 88. ¿Qué te molestaría del trabajo con Claude? Por ejemplo: demasiadas preguntas, demasiado texto o falta de detalle.
 
-### O · Contraste con el candidato actual (Recargo+)
-89. ★ ¿Conoces a mayoristas o distribuidores que vendan a tiendas pequeñas? ¿Usan Shopify u otra plataforma?
-90. ¿Te interesa el mundo de la fiscalidad y el e-commerce, o te resulta indiferente o aburrido?
-91. ¿Te sentirías cómodo dando soporte (por escrito) a empresas sobre un tema fiscal?
-92. ¿Qué te gusta y qué no de Recargo+ tal como está planteado?
+### O · Gustos sobre el mundo digital y contraste con lo ya estudiado
+89. ★ ¿Qué negocios o productos digitales usas o pagas tú mismo? ¿Cuáles te parecen geniales y por qué?
+90. ¿Qué tipo de trabajo digital disfrutarías supervisando cada semana? (software, contenido, datos, atención a clientes, comunidad, ventas).
+91. ¿Conoces a mayoristas, distribuidores o tiendas online? ¿Qué plataformas usan? (sirve para valorar Recargo+ con datos reales)
+92. De las ideas ya estudiadas (`<referencias_previas>`), ¿alguna te atrae o te repele especialmente? ¿Por qué?
 93. ¿Preferirías algo más cercano a tu profesión, aunque tarde más en dar dinero?
 
 ### P · Experiencias previas
@@ -183,26 +185,81 @@ Confírmalo todo al principio con una sola pregunta de sí/no y corrige lo que h
 
 </banco_de_preguntas>
 
+<mapa_del_mercado_digital>
+Antes de generar ideas, construye y enséñame un **mapa del mercado digital de 2026**, investigando con búsqueda y lectura web (fuentes abiertas de verdad, con fecha). Cúbrelo todo, sin favorecer ninguna opción:
+
+1. **Modelos de negocio digitales.** Para cada uno: margen típico, escalabilidad, tiempo hasta el primer ingreso, nivel de automatización posible con IA, riesgo de comoditización por IA y casos reales de pequeños fundadores con cifras verificables. Incluye al menos:
+   - SaaS vertical o micro-SaaS
+   - apps en tiendas (Shopify, WordPress, Chrome, Google Workspace, Slack, Atlassian, HubSpot, Zapier y similares)
+   - APIs y datos como producto
+   - servicios productizados entregados con IA
+   - agentes o automatizaciones a medida vendidas como suscripción
+   - newsletters y medios de nicho
+   - comunidades de pago
+   - formación y cohortes
+   - productos digitales (plantillas, kits)
+   - directorios con listados de pago
+   - SEO programático con monetización
+   - afiliación
+   - marketplaces de dos lados
+   - comercio con stock mínimo o bajo demanda
+   - contenido en vídeo o pódcast con producto propio
+2. **Canales de distribución.** Cuáles traen clientes sin publicidad para alguien que empieza: buscadores, marketplaces y tiendas de apps, comunidades, LinkedIn, newsletters de terceros, socios o revendedores, programas de partners, directorios B2B, venta directa. Para cada canal: coste, tiempo hasta dar resultados y encaje con poco tiempo del fundador.
+3. **Tendencias y ventanas de 2026–2027.**
+   - Obligaciones legales nuevas en España y la UE que crean demanda: facturación electrónica y Verifactu, Ley de IA, accesibilidad, normativa de consumo, sostenibilidad, registro horario y otras que encuentres.
+   - Cambios de plataformas.
+   - Sectores que se están digitalizando.
+   - Nichos desatendidos en español o catalán.
+4. **Qué ha cambiado con la IA.**
+   - Qué modelos de negocio pierden valor porque cualquiera puede hacerlos con un prompt.
+   - Cuáles ganan (confianza, datos propios, integración en flujos, distribución, curación experta).
+   - Qué puede operar Claude de forma autónoma y qué sigue exigiendo una persona.
+5. **Restricciones de mi caso.** España y Cataluña, autónomo con tarifa plana, IVA y OSS, RGPD y LSSI, mis horas y mi presupuesto. Indica qué modelos quedan descartados de entrada y por qué.
+
+Entrega el mapa como tabla comparativa con una puntuación preliminar por modelo y canal. Úsalo como base para generar las ideas. Si tienes subagentes, reparte la investigación en paralelo (uno por grupo de modelos) y añade un revisor que busque fallos en las conclusiones.
+</mapa_del_mercado_digital>
+
 <tras_la_entrevista>
 Cuando termines (o cuando yo diga "basta"), entrega en este orden:
 
 1. **Ficha del fundador (1 página).** Objetivos, restricciones duras, tiempo, dinero, tolerancia al riesgo, habilidades, activos, red, problemas que conozco y preferencias. Marca con `[DESCONOCIDO]` lo que falte.
 2. **Ventajas injustas.** Lista de 3 a 7 ventajas que tengo y otros no (conocimiento, contactos, idioma, acceso a un canal, credibilidad), con una frase sobre cómo se podría monetizar cada una.
-3. **Criterios personalizados.** Pesos de decisión adaptados a mis respuestas, partiendo de esta base, y explica por qué los cambias:
-   - acceso al canal 20 %, escalabilidad 15 %, demanda verificable 15 %, disposición a pagar 15 %, defensibilidad frente a la IA 10 %, automatizabilidad 10 %, tiempo al primer ingreso 5 %, encaje con el fundador 5 %, riesgo 5 %.
-4. **Ideas.** Entre 20 y 30 ideas, al menos la mitad apoyadas en mis ventajas injustas. Cada una en una línea: cliente · problema · solución · quién paga y cuánto · canal · cómo se automatiza · ventaja frente a la IA.
-5. **Filtro.** Descarta las que violen mis restricciones duras y di por qué.
-6. **Puntuación.** Las 8 mejores **más Recargo+**, puntuadas con los criterios personalizados y con la fuente o el supuesto de cada nota.
-7. **Análisis profundo del top 3.** Mercado alcanzable calculado de abajo arriba, 5 competidores con precio, citas reales de clientes con URL abierta, economía unitaria, plan para los primeros 10 clientes y pre-mortem. Usa búsqueda web y lectura de fuentes; si no puedes abrir una fuente, dilo y marca el dato como supuesto.
-8. **Veredicto frente a Recargo+.** Tabla comparativa y una de estas tres recomendaciones, justificada: (a) seguir con Recargo+ (b) cambiar a la idea X (c) combinar, por ejemplo usar Recargo+ como base y añadir X. Incluye qué perderíamos y qué ganaríamos al cambiar.
-9. **Lo que necesitas de mí.** Accesos, cuentas y conectores necesarios para el negocio recomendado, con el permiso mínimo, el coste y los pasos. Ningún gasto sin mi consentimiento.
-10. **Siguiente paso.** Una sola acción concreta para esta semana.
+3. **Mapa del mercado digital** (según `<mapa_del_mercado_digital>`), con los modelos y canales que mejor encajan con mi ficha marcados.
+4. **Criterios personalizados.** Pesos de decisión adaptados a mis respuestas, partiendo de esta base, y explica por qué los cambias:
+   - rentabilidad (margen y beneficio neto alcanzable) 15 %
+   - escalabilidad (mercado, coste marginal, recurrencia) 15 %
+   - acceso al canal 15 %
+   - demanda verificable 10 %
+   - disposición a pagar 10 %
+   - defensibilidad frente a la IA 10 %
+   - automatizabilidad con Claude 10 %
+   - encaje con el fundador 5 %
+   - tiempo al primer ingreso 5 %
+   - riesgo 5 %
+5. **Ideas.** Entre 30 y 40 ideas repartidas entre **todos** los modelos del mapa (no más de 5 por modelo), con al menos la mitad apoyadas en mis ventajas injustas. Cada una en una línea: cliente · problema · solución · modelo · quién paga y cuánto · canal · cómo se automatiza con Claude · ventaja frente a la IA.
+6. **Filtro.** Descarta las que violen mis restricciones duras y di por qué.
+7. **Puntuación.** Las 10 mejores, puntuadas con los criterios personalizados, con la fuente o el supuesto de cada nota.
+8. **Análisis profundo del top 3.** Para cada una:
+   - mercado alcanzable calculado de abajo arriba;
+   - 5 competidores con precio;
+   - citas reales de clientes con URL abierta;
+   - economía unitaria;
+   - proyección a 12 y 36 meses en escenarios pesimista, base y optimista;
+   - plan para los primeros 10 clientes;
+   - pre-mortem.
+
+   Si no puedes abrir una fuente, dilo y marca el dato como supuesto.
+9. **El negocio ideal.** Elige uno, o una combinación, y diséñalo en una página: qué es, para quién, qué problema resuelve, cómo gana dinero, por qué yo, canal, automatización, cifras esperadas y primeros 30 días.
+10. **Comparación con lo ya estudiado.** Tabla del negocio ideal frente a Recargo+ y el Kit IA. Recomendación justificada: (a) cambiar al negocio ideal (b) seguir con Recargo+ (c) combinar. Incluye qué se gana y qué se pierde.
+11. **Lo que necesitas de mí.** Accesos, cuentas y conectores necesarios, con el permiso mínimo, el coste y los pasos. Ningún gasto sin mi consentimiento.
+12. **Siguiente paso.** Una sola acción concreta para esta semana.
 </tras_la_entrevista>
 
 <principios>
 - Evidencia antes que opinión: cita las fuentes que hayas abierto de verdad y marca el resto como `[SUPUESTO · confianza alta/media/baja]`. Nunca inventes cifras, citas ni reseñas.
 - La distribución importa más que el producto: un negocio sin canal accesible no vale.
 - Prioriza lo que una IA no puede copiar en una tarde: conocimiento propio, red, datos, confianza, integración en un flujo de trabajo.
+- Neutralidad: no favorezcas ningún modelo, plataforma o idea previa. Si una referencia previa resulta ser la mejor, que sea porque gana la comparación, no porque ya existía.
 - Corrige tu optimismo: conversiones realistas (1–3 % en tráfico frío) y pre-mortem en cada recomendación.
 - Respeta mis límites de tiempo y dinero, y la regla de cero gasto sin consentimiento.
 - Legal y ético: España/UE (alta censal, IVA, RGPD, LSSI, transparencia de la Ley de IA); sin sectores regulados que no pueda ejercer.
