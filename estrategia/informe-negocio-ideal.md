@@ -73,12 +73,12 @@ Escalas 1–5. "Comod." = riesgo de comoditización por IA (5 = máximo). "Encaj
 | Socios a comisión (gestorías, proveedores de material, gremios) ⚠️ | 0 € fijo; 10–20 % | 2–4 meses | 3 | 3 | 7 |
 | Marketplaces (Malt, Upwork, Fiverr, Workana) ⚠️ | 5–20 % comisión ([Malt](https://help.malt.com/hc/es/articles/29539691425938-Los-gastos-de-servicios-de-Malt)) | 2–8 sem | 3 | 5 | 6 (casos y reseñas, poca recurrencia) |
 | Patrocinio de newsletters sectoriales | ~100 € CPM ([ohmynewst](https://www.ohmynewst.com/blog/como-fijar-precios-patrocinio-newsletters)) | Inmediato | 5 | 5 | 5 |
-| Llamada en frío **hecha por persona**, B2B, con Robinson | Tiempo | 1–4 sem | 2 | 5 | 5 (no cabe en tu tiempo) |
+| ✅ **Llamada en frío hecha por una persona a reformistas** (B2B), presentándose al inicio, con Robinson y número fijo/900 | Tu tiempo, o un teleoperador por horas (~10–15 €/h `[SUPUESTO · media]`) | 1–4 sem | 3 (5 si se externaliza) | 5 | **7** (revisado: es legal con condiciones) |
 | SEO / blog ❌ | Tiempo | 6–24 meses | 3 | 5 | 4 |
 | Directorios B2B (Sortlist, Clutch) | 129 €/mes · 499 $/año | 1–3 meses | 4 | 4 | 4 |
 | Comunidades (grupos de gremio, Reddit) | 0 € | 1–3 meses | 2 | 3 | 4 |
 | Email en frío masivo ❌ | 30–100 €/mes | — | — | — | **3 → ilegal (LSSI art. 21)** |
-| **Llamadas automatizadas / voz IA en frío** ❌ | — | — | — | — | **Ilegal sin consentimiento previo** |
+| **Llamadas automatizadas / voz IA en frío** ❌ | — | — | — | — | **Ilegal sin consentimiento previo** (art. 66.1.a LGTel), aunque la IA se presente |
 | Partners n8n / Make ❌ | — | 6–12 meses+ | 2 | 2 | 3 (n8n: España fuera del programa, [n8n](https://n8n.io/expert-partners/)) |
 | LinkedIn página de empresa orgánico ❌ | 0 € | Muy lento | 3 | 1 | 2 (alcance ~1,6 %) |
 
@@ -123,7 +123,7 @@ Escalas 1–5. "Comod." = riesgo de comoditización por IA (5 = máximo). "Encaj
 - **Ley de IA, art. 50:** el agente dice que es IA en el primer mensaje.
 - **Anuncios de reformas en Meta:** "housing repairs" figura dentro de la categoría especial de vivienda, obligatoria en EE. UU. y "partes de Europa", que impide segmentar por edad, sexo o código postal ([Jon Loomer](https://www.jonloomer.com/special-ad-categories-meta-ads/), [Data Axle](https://www.data-axle.com/resources/blog/meta-special-ad-categories-rules/)). `[SUPUESTO · verificar si aplica en España]`. Afecta a los anuncios del cliente, no a tus anuncios para captar reformistas; con segmentación amplia sigue funcionando.
 
-**Permitido con condiciones:** llamada **humana** B2B a números profesionales con interés legítimo documentado y filtro Robinson (tú, puntualmente); agente IA que **responde** a leads que pidieron contacto (con aviso de IA); campañas a la base de datos del propio cliente solo si tiene consentimiento.
+**Permitido con condiciones (revisado a petición tuya):** la llamada en frío **hecha por una persona** a reformistas (empresas, autónomos o personas de contacto profesional) **sí es legal** si: (1) se usan números profesionales de fuentes públicas del negocio; (2) se filtra la Lista Robinson; (3) hay una ponderación de interés legítimo por escrito; (4) **al inicio se dice quién llama, que es comercial y cómo oponerse**; (5) se llama desde un fijo, 800/900 o numeración autorizada, **nunca un móvil** (Orden TDF/149/2025, desde el 7-06-2025, [BOE](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-2870)). Base: Circular AEPD 1/2023 ([ECIJA](https://www.ecija.com/actualidad-insights/criterio-de-la-aepd-en-la-circular-1-2023-sobre-el-envio-de-llamadas-comerciales-en-la-reforma-de-la-ley-general-de-telecomunicaciones/)). **Lo que sigue prohibido aunque te presentes:** que la llamada la haga una máquina o un agente de voz IA sin consentimiento previo, porque el art. 66.1.a LGTel no exige solo identificarse, sino consentimiento para cualquier llamada comercial automática ([AEPD](https://www.aepd.es/preguntas-frecuentes/5-publicidad-no-deseada/FAQ-0502-llamadas-automatizadas-sin-intervencion-humana-con-fines-comerciales)). También: agente IA que **responde** a leads que pidieron contacto (con aviso de IA); campañas a la base de datos del propio cliente solo si tiene consentimiento. Reglas completas en la skill `captacion-legal-espana`.
 
 ---
 
@@ -315,7 +315,8 @@ Notas 1–5 × pesos de la sección 4 → resultado sobre 100.
 **Plan para los primeros 10 clientes.**
 1. **Clientes 1–3 (semanas 2–6):** campaña de Meta Ads (100–150 €) dirigida a dueños de empresas de reformas en el área metropolitana de Barcelona, con oferta piloto: «primer mes de gestión gratis, solo pagas los anuncios; si no te agendamos al menos 5 visitas cualificadas, no pagas el alta». Formulario nativo → el propio agente IA responde y agenda la llamada contigo (demostración del producto). *En la proyección, los ingresos de estos 3 pilotos empiezan un mes más tarde y sin alta asegurada.* Plan de entrada alternativo para quien no quiere invertir en anuncios: solo el **recuperador de presupuestos** a 149 €/mes (idea 6), con mejora posterior al sistema completo.
 2. **Clientes 4–6 (semanas 6–10):** casos con cifras de los pilotos (citas/semana, coste por cita) en la landing y en los anuncios; Malt y Fiverr como escaparate secundario.
-3. **Clientes 7–10 (semanas 10–16):** programa de referidos (1 mes gratis por cliente traído) y prueba de 2–3 socios a comisión del 15 % recurrente (tiendas de materiales, interioristas), contactados por ti o por llamada humana con Robinson.
+3. **Canal 2 desde la semana 4: llamadas humanas a reformistas** con las 5 condiciones legales. Claude prepara la lista (fuente y fecha de cada número, filtro Robinson), el guion con la presentación obligatoria y la agenda. Llamas tú (10–15 llamadas en 2 tardes por semana) o, si funciona, un teleoperador por horas pagado con los ingresos. Una línea fija virtual cuesta unos 5–15 €/mes `[SUPUESTO · media]`.
+4. **Clientes 7–10 (semanas 10–16):** programa de referidos (1 mes gratis por cliente traído) y prueba de 2–3 socios a comisión del 15 % recurrente (tiendas de materiales, interioristas), contactados por ti o por llamada humana con Robinson.
 
 **Pre-mortem: si fracasa en 12 meses, por qué.**
 | Causa probable | Señal temprana | Mitigación |
@@ -389,7 +390,7 @@ Notas 1–5 × pesos de la sección 4 → resultado sobre 100.
 | **Problema** | Leads basura, compartidos y caros; nadie contesta a tiempo; presupuestos que se pierden por falta de seguimiento. |
 | **Cómo gana dinero** | Dos planes. **Sistema completo:** 390 € de alta + 390 €/mes (contrato mínimo 3 meses), con anuncios pagados por el cliente a Meta y exclusividad por zona. **Plan de entrada:** recuperador de presupuestos a 149 €/mes, sin anuncios, como puerta al plan completo. Garantía: si no hay el mínimo de visitas pactado, ese mes no se paga. Fase 2: paquetes de citas exclusivas con marca propia (idea 27). |
 | **Por qué tú** | Ya lo hiciste a mano y sabes dónde falla; dominas Meta Ads y n8n; tienes Business Manager con historial y datos de CPL; hablas catalán. |
-| **Canal** | Meta Ads a dueños de empresas de reformas (100–200 €/mes) + pilotos a cambio de casos + referidos + socios a comisión. Nada de llamadas automatizadas ni emails en frío. |
+| **Canal** | Meta Ads a dueños de empresas de reformas (100–200 €/mes) + pilotos a cambio de casos + referidos + socios a comisión. **+ llamadas humanas a reformistas** (legales con presentación, Robinson y número fijo). Nada de llamadas automatizadas ni emails en frío. |
 | **Automatización** | n8n (servidor propio) + API de Claude + API de WhatsApp Business + Google Calendar. Claude: crea y optimiza anuncios, mantiene flujos, revisa conversaciones, prepara informes semanales. Tú: llamadas de venta, aceptar clientes, aprobar gastos, revisar. |
 | **Cifras esperadas** (netas tras IRPF) | Base: ~640 €/mes en el mes 6, ~1.480 €/mes en el mes 12, ~2.760 €/mes en el mes 36. Optimista: ~1.850 €/mes en el mes 6. Pesimista: abandono en el mes 3–4. Pérdida máxima acumulada esperada: ~900–1.100 €. |
 | **Forma jurídica** | Autónomo con tarifa plana (tu elección): marca comercial visible, pero tu nombre y NIF consultables. Si el anonimato es innegociable de verdad, hay que pasar a una SL; eso suma ~300–600 € de constitución y ~100 €/mes de gestoría, y el escenario pesimista queda en pérdidas. **Decisión tuya.** |
